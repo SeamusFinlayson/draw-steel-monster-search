@@ -34,16 +34,18 @@ function App() {
   return (
     <div className="p-6 bg-zinc-50 w-full h-full text-black overflow-auto text-sm space-y-6">
       {statblock && (
-        <div className="w-full bg-zinc-50 top-0 left-0 fixed h-full overflow-y-auto">
-          <div className="">
-            <button
-              className="absolute right-4 top-4 bg-zinc-950 text-white rounded-full  p-4 grid place-items-center"
-              onClick={() => setStatblock(undefined)}
-            >
-              X
-            </button>
-            <div className="flex flex-col items-center p-10 ">
+        <div className="w-full bg-zinc-50 top-0 left-0 fixed h-full ">
+          <div className="h-full flex flex-col items-center">
+            <div className="overflow-y-auto p-2 size-full grid  justify-items-center">
               <StatBlock statblock={statblock} />
+            </div>
+            <div className="p-2 pt-0  w-full">
+              <button
+                className=" bg-zinc-950 text-white size-full rounded-2xl p-4 grid place-items-center"
+                onClick={() => setStatblock(undefined)}
+              >
+                Close
+              </button>
             </div>
           </div>
         </div>
@@ -106,7 +108,7 @@ function App() {
                   );
                   if (!validation.valid) {
                     console.error(json, validation.errors);
-                    throw "bad stat block";
+                    throw "stat block did not match schema";
                   } else console.log(json);
 
                   // Handle

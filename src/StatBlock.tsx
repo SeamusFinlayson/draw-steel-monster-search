@@ -17,9 +17,9 @@ import { targetArrow } from "@lucide/lab";
 
 export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
   return (
-    <div className="w-[450px] space-y-2">
+    <div className="w-full max-w-lg space-y-2">
       <div>
-        <div className="bg-zinc-300 p-1">
+        <div className="bg-zinc-300 p-1 rounded-sm">
           <div className="flex justify-between items-end">
             <div className="font-bold text-base">{statblock.name}</div>
             <div className="font-bold">{`Level ${statblock.level} ${statblock.roles}`}</div>
@@ -29,11 +29,10 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
             <div>{`EV ${statblock.ev}`}</div>
           </div>
         </div>
-        <div className="w-full border-b border-zinc-950" />
       </div>
 
       <div className="space-y-2 px-1">
-        <div className="grid grid-cols-5">
+        <div className="flex flex-wrap justify-between gap-2 px-1">
           {[
             { label: "Size", value: statblock.size },
             { label: "Speed", value: statblock.speed },
@@ -57,17 +56,25 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
             {statblock.weaknesses ? statblock.weaknesses : "—"}
           </div>
         </div>
-        {statblock.movement && (
+        <div className="flex justify-between">
           <div>
             <span className="font-bold">{"Movement: "}</span>
-            <span>{statblock.movement}</span>
+            <span>{statblock.movement ? statblock.movement : "—"}</span>
           </div>
-        )}
+          {statblock?.with_captain && statblock.roles.includes("Minion") && (
+            <div className="">
+              <span className="font-bold">{"With Captain: "}</span>
+              <span>
+                {statblock.with_captain ? statblock.with_captain : "—"}
+              </span>
+            </div>
+          )}
+        </div>
       </div>
 
       <div className="w-full border-b border-zinc-950" />
 
-      <div className="flex justify-between gap-1.5 text-sm px-1">
+      <div className="flex flex-wrap justify-between gap-1.5 text-sm px-1">
         {[
           { label: "Might", value: statblock.might },
           { label: "Agility", value: statblock.agility },
@@ -209,8 +216,8 @@ function Effect({
         {["t1", "t2", "t3", "critical"].map(key => (
           <div key={key}>
             {key in effect && (
-              <div className="flex gap-1">
-                <span className="font-semibold text-xs w-8 flex justify-center-safe">
+              <div className="flex gap-1 ">
+                <span className="font-semibold text-xs min-w-8 flex justify-center-safe h-[16px] my-[2px] bg-zinc-900 text-zinc-50 rounded-sm">
                   {(() => {
                     if (key === "t1") return "<11";
                     if (key === "t2") return "12-16";
