@@ -255,17 +255,16 @@ function Effect({
 function highlightPotencies(string: string) {
   const potencyRegex = /([MAIRP][ ][<][ ][-]?[\d])+/g;
 
-  return string
-    .split(potencyRegex)
-    .map((val, index) => (
-      <span
-        className={
-          index % 2
-            ? "bg-zinc-950 rounded-sm font-semibold px-0.5 text-xs text-white"
-            : ""
-        }
-      >
-        {val}
-      </span>
-    ));
+  return string.split(potencyRegex).map((val, index) => (
+    <span
+      key={index}
+      className={
+        index % 2
+          ? "bg-zinc-950 rounded-sm font-semibold px-0.5 text-xs text-white"
+          : ""
+      }
+    >
+      {val}
+    </span>
+  ));
 }

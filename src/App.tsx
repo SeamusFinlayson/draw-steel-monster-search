@@ -7,12 +7,15 @@ function App() {
   const [inputValue, setInputValue] = useState("");
   const [statBlockPaths, setStatBlockPaths] = useState<string[]>([]);
   const [statblock, setStatblock] = useState<DrawSteelStatblock>();
+  const [invalidStatblockURLs, setInvalidStatblockURLs] = useState<string[]>(
+    []
+  );
 
   useEffect(() => {
     async function fetchData() {
       // Get
       const response = await fetch(
-        "https://api.github.com/repos/SeamusFinlayson/data-bestiary-json/git/trees/main?recursive=1"
+        "https://api.github.com/repos/SteelCompendium/data-bestiary-json/git/trees/main?recursive=1"
       );
       const json = await response.json();
 
@@ -24,7 +27,7 @@ function App() {
       console.log(tree);
       const paths = tree.map(
         (item: { path: string }) =>
-          `https://raw.githubusercontent.com/SeamusFinlayson/data-bestiary-json/main/${item.path}`
+          `https://raw.githubusercontent.com/SteelCompendium/data-bestiary-json/main/${item.path}`
       );
       setStatBlockPaths(paths);
     }
@@ -61,27 +64,31 @@ function App() {
       </div>
 
       <button
-        className="bg-zinc-200 py-0.5 px-1.5 rounded-sm"
-        onClick={() => {
+        className="bg-zinc-100 hover:bg-zinc-200 py-2 px-3 duration-100 rounded-sm"
+        onClick={async () => {
           const badStatblocks: { file: string; errors: unknown }[] = [];
-          statBlockPaths.forEach(async path => {
-            // Get
-            const response = await fetch(path);
-            const json = await response.json();
+          await Promise.all(
+            statBlockPaths.map(async path => {
+              // Get
+              const response = await fetch(path);
+              const json = await response.json();
 
-            // Validate
-            const validation = await validator.validateJSON(
-              json,
-              "statblock.schema.json"
-            );
-            if (!validation.valid) {
-              badStatblocks.push({ file: path, errors: validation.errors });
-            }
-          });
+              // Validate
+              const validation = await validator.validateJSON(
+                json,
+                "statblock.schema.json"
+              );
+              if (!validation.valid) {
+                badStatblocks.push({ file: path, errors: validation.errors });
+              }
+            })
+          );
+
           console.log(badStatblocks);
+          setInvalidStatblockURLs([...badStatblocks].map(val => val.file));
         }}
       >
-        Validate All
+        Fetch and Validate All
       </button>
 
       <div className="flex gap-3 flex-wrap">
@@ -93,7 +100,8 @@ function App() {
             const lastSlash = path.lastIndexOf("/");
             return (
               <button
-                className="bg-zinc-100 hover:bg-zinc-200 py-2 px-3 duration-100 rounded-sm"
+                data-error={invalidStatblockURLs.includes(path)}
+                className="bg-zinc-100 data-[error=true]:bg-red-100 hover:data-[error=true]:bg-red-200 hover:bg-zinc-200 py-2 px-3 duration-100 rounded-sm"
                 key={path}
                 onMouseDown={() => fetch(path)}
                 onClick={async () => {
