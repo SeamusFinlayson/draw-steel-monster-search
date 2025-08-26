@@ -36,12 +36,12 @@ function App() {
       {statblock && (
         <div className="w-full bg-zinc-50 top-0 left-0 fixed h-full ">
           <div className="h-full flex flex-col items-center">
-            <div className="overflow-y-auto p-2 size-full grid  justify-items-center">
+            <div className="overflow-y-auto p-6 size-full grid  justify-items-center">
               <StatBlock statblock={statblock} />
             </div>
             <div className="p-2 pt-0  w-full">
               <button
-                className=" bg-zinc-950 text-white size-full rounded-2xl p-4 grid place-items-center"
+                className=" bg-zinc-950 hover:bg-zinc-900 duration-100 text-white size-full rounded-2xl p-4 grid place-items-center"
                 onClick={() => setStatblock(undefined)}
               >
                 Close
@@ -84,7 +84,7 @@ function App() {
         Validate All
       </button>
 
-      <div className="flex gap-2 flex-wrap">
+      <div className="flex gap-3 flex-wrap">
         {statBlockPaths
           .filter(path =>
             path.toLowerCase().includes(inputValue.toLowerCase().trim())
@@ -93,7 +93,7 @@ function App() {
             const lastSlash = path.lastIndexOf("/");
             return (
               <button
-                className="bg-zinc-200 hover:bg-zinc-300 py-0.5 px-1.5 rounded-sm"
+                className="bg-zinc-100 hover:bg-zinc-200 py-2 px-3 duration-100 rounded-sm"
                 key={path}
                 onMouseDown={() => fetch(path)}
                 onClick={async () => {

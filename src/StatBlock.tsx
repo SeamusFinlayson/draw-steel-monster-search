@@ -7,6 +7,7 @@ import {
   SkullIcon,
   StarIcon,
   SwordIcon,
+  UserIcon,
 } from "lucide-react";
 import type {
   DrawSteelAbility,
@@ -19,7 +20,7 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
   return (
     <div className="w-full max-w-lg space-y-2">
       <div>
-        <div className="bg-zinc-300 p-1 rounded-sm">
+        <div className=" p-1 rounded-sm">
           <div className="flex justify-between items-end">
             <div className="font-bold text-base">{statblock.name}</div>
             <div className="font-bold">{`Level ${statblock.level} ${statblock.roles}`}</div>
@@ -29,6 +30,7 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
             <div>{`EV ${statblock.ev}`}</div>
           </div>
         </div>
+        <div className="w-full border-b border-zinc-950" />
       </div>
 
       <div className="space-y-2 px-1">
@@ -46,29 +48,31 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
             </div>
           ))}
         </div>
-        <div className="flex justify-between">
-          <div>
-            <span className="font-bold">{"Immunity: "}</span>
-            {statblock.immunities ? statblock.immunities : "—"}
-          </div>
-          <div>
-            <span className="font-bold">{"Weakness: "}</span>
-            {statblock.weaknesses ? statblock.weaknesses : "—"}
-          </div>
-        </div>
-        <div className="flex justify-between">
-          <div>
-            <span className="font-bold">{"Movement: "}</span>
-            <span>{statblock.movement ? statblock.movement : "—"}</span>
-          </div>
-          {statblock?.with_captain && statblock.roles.includes("Minion") && (
-            <div className="">
-              <span className="font-bold">{"With Captain: "}</span>
-              <span>
-                {statblock.with_captain ? statblock.with_captain : "—"}
-              </span>
+        <div>
+          <div className="flex justify-between">
+            <div>
+              <span className="font-bold">{"Immunity: "}</span>
+              {statblock.immunities ? statblock.immunities : "—"}
             </div>
-          )}
+            <div>
+              <span className="font-bold">{"Weakness: "}</span>
+              {statblock.weaknesses ? statblock.weaknesses : "—"}
+            </div>
+          </div>
+          <div className="flex justify-between">
+            <div>
+              <span className="font-bold">{"Movement: "}</span>
+              <span>{statblock.movement ? statblock.movement : "—"}</span>
+            </div>
+            {statblock?.with_captain && statblock.roles.includes("Minion") && (
+              <div className="">
+                <span className="font-bold">{"With Captain: "}</span>
+                <span>
+                  {statblock.with_captain ? statblock.with_captain : "—"}
+                </span>
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
@@ -89,13 +93,13 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
         ))}
       </div>
 
-      <div>
+      <div className="space-y-2">
         {statblock.traits?.map(trait => (
           <Trait key={trait.name} trait={trait} />
         ))}
       </div>
 
-      <div>
+      <div className="space-y-2">
         {statblock.abilities?.map(ability => (
           <Ability key={ability.name} ability={ability} />
         ))}
@@ -106,7 +110,7 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
 
 function Trait({ trait }: { trait: DrawSteelTrait }) {
   return (
-    <div className="border-t flex border-zinc-950 pl-0 p-1 gap-1">
+    <div className="border-t flex border-zinc-950 pl-0 px-1 gap-1 pt-2">
       <div>
         {["ajax", "solo monster"].includes(trait.name.toLowerCase()) ? (
           <SkullIcon className="size-5" />
@@ -133,7 +137,7 @@ function Ability({ ability }: { ability: DrawSteelAbility }) {
   });
 
   return (
-    <div className="border-t border-zinc-950  flex p-1 pl-0 gap-1">
+    <div className="border-t border-zinc-950  flex px-1 pl-0 gap-1 pt-2">
       <div>
         {(() => {
           if (ability.cost?.includes("Villain Action"))
@@ -146,6 +150,7 @@ function Ability({ ability }: { ability: DrawSteelAbility }) {
             return <SwordIcon className="size-5" />;
           if (ability.keywords?.includes("Ranged"))
             return <BowArrowIcon className="size-5" />;
+          return <UserIcon className="size-5" />;
         })()}
       </div>
       <div className="w-full space-y-2">
@@ -178,7 +183,7 @@ function Ability({ ability }: { ability: DrawSteelAbility }) {
             <Effect key={index} effect={effect} />
           ))}
         </div>
-        <div className="italic">{ability.flavor}</div>
+        {ability.flavor && <div className="italic">{ability.flavor}</div>}
       </div>
     </div>
   );
@@ -216,15 +221,16 @@ function Effect({
         {["t1", "t2", "t3", "critical"].map(key => (
           <div key={key}>
             {key in effect && (
-              <div className="flex gap-1 ">
-                <span className="font-semibold text-xs min-w-8 flex justify-center-safe h-[16px] my-[2px] bg-zinc-900 text-zinc-50 rounded-sm">
+              <div className="flex gap-1 items-center">
+                <span className="font-semibold text-xs min-w-9 h-[18px] grid place-items-center border rounded-sm">
                   {(() => {
                     if (key === "t1") return "<11";
                     if (key === "t2") return "12-16";
                     if (key === "t3") return "17+";
                   })()}
                 </span>
-                {effect[key]}
+                <span className="">{highlightPotencies(effect[key])}</span>
+                {/* <span>{effect[key].replace(potencyRegex, `<b>$1</b>`)}</span> */}
               </div>
             )}
           </div>
@@ -241,7 +247,25 @@ function Effect({
       {"cost" in effect && (
         <span className="font-semibold">{`${effect.cost}: `}</span>
       )}
-      {"effect" in effect && <span>{effect.effect}</span>}
+      {"effect" in effect && <span>{highlightPotencies(effect.effect)}</span>}
     </div>
   );
+}
+
+function highlightPotencies(string: string) {
+  const potencyRegex = /([MAIRP][ ][<][ ][-]?[\d])+/g;
+
+  return string
+    .split(potencyRegex)
+    .map((val, index) => (
+      <span
+        className={
+          index % 2
+            ? "bg-zinc-950 rounded-sm font-semibold px-0.5 text-xs text-white"
+            : ""
+        }
+      >
+        {val}
+      </span>
+    ));
 }
