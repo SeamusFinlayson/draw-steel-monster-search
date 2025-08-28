@@ -4,6 +4,7 @@ import {
   drawSteelStatblock,
   type DrawSteelStatblock,
 } from "./types/statblockZod";
+import fuzzysort from "fuzzysort";
 
 function App() {
   const [inputValue, setInputValue] = useState("");
@@ -92,10 +93,12 @@ function App() {
       </button>
 
       <div className="flex gap-3 flex-wrap">
-        {statBlockPaths
-          .filter(path =>
-            path.toLowerCase().includes(inputValue.toLowerCase().trim())
-          )
+        {fuzzysort
+          .go(inputValue, statBlockPaths, {
+            all: true,
+            threshold: 0.2,
+          })
+          .map(val => val.target)
           .map(path => {
             const lastSlash = path.lastIndexOf("/");
             return (
