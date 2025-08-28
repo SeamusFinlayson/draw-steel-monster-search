@@ -154,61 +154,93 @@ export interface DrawSteelAbility {
   };
 }
 export type DrawSteelEffect =
-  | {
-      /**
-       * Power Roll expression (e.g., "2d10 + 3")
-       */
-      roll: string;
-      t1?: string;
-      t2?: string;
-      t3?: string;
-      crit?: string;
-      "11 or lower"?: string;
-      "12-16"?: string;
-      "17+"?: string;
-      "nat 19-20"?: string;
-      /**
-       * Tier result (key can be '11 or lower', '12-16', '17+', 'crit', etc.)
-       */
-      [k: string]: string | undefined;
-    }
-  | {
-      /**
-       * Name of the effect
-       */
-      name: string;
-      /**
-       * Cost to trigger this effect
-       */
-      cost: string;
-      /**
-       * Description of what the effect does
-       */
-      effect: string;
-    }
-  | {
-      /**
-       * Name of the effect
-       */
-      name: string;
-      /**
-       * Description of what the effect does
-       */
-      effect: string;
-    }
-  | {
-      /**
-       * Cost to trigger this effect
-       */
-      cost: string;
-      /**
-       * Description of what the effect does
-       */
-      effect: string;
-    }
-  | {
-      /**
-       * Description of what the effect does
-       */
-      effect: string;
-    };
+  | PowerRollEffect
+  | testEffect
+  | namedEffectWithCost
+  | namedEffect
+  | costedEffect
+  | namelessEffect;
+export type PowerRollEffect = {
+  /**
+   * Power Roll expression (e.g., "2d10 + 3")
+   */
+  roll: string;
+  t1?: string;
+  t2?: string;
+  t3?: string;
+  crit?: string;
+  "11 or lower"?: string;
+  "12-16"?: string;
+  "17+"?: string;
+  "nat 19-20"?: string;
+  /**
+   * Tier result (key can be '11 or lower', '12-16', '17+', 'crit', etc.)
+   */
+  [k: string]: string | undefined;
+};
+export type testEffect = {
+  /**
+   * Description of what the effect does
+   */
+  effect: string;
+  /**
+   * Name of the effect
+   */
+  name?: string;
+  /**
+   * Cost to trigger this effect
+   */
+  cost?: string;
+  t1?: string;
+  t2?: string;
+  t3?: string;
+  crit?: string;
+  "11 or lower"?: string;
+  "12-16"?: string;
+  "17+"?: string;
+  "nat 19-20"?: string;
+  /**
+   * Tier result (key can be '11 or lower', '12-16', '17+', 'crit', etc.)
+   */
+  [k: string]: string | undefined;
+};
+export type namedEffectWithCost = {
+  /**
+   * Name of the effect
+   */
+  name: string;
+  /**
+   * Cost to trigger this effect
+   */
+  cost: string;
+  /**
+   * Description of what the effect does
+   */
+  effect: string;
+};
+export type namedEffect = {
+  /**
+   * Name of the effect
+   */
+  name: string;
+  /**
+   * Description of what the effect does
+   */
+  effect: string;
+};
+export type costedEffect = {
+  /**
+   * Cost to trigger this effect
+   */
+  cost: string;
+  /**
+   * Description of what the effect does
+   */
+  effect: string;
+};
+export type namelessEffect = {
+  /**
+   * Description of what the effect does
+   */
+  effect: string;
+};

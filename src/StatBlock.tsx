@@ -134,7 +134,9 @@ function Trait({ trait }: { trait: DrawSteelTrait }) {
 function Ability({ ability }: { ability: DrawSteelAbility }) {
   let roll: string | undefined = undefined;
   ability.effects.forEach(val => {
-    if ("roll" in val) roll = val.roll.replace("Power Roll", "2d10");
+    if ("roll" in val && val.roll) {
+      roll = val.roll.replace("Power Roll", "2d10");
+    }
   });
 
   return (
@@ -178,12 +180,19 @@ function Ability({ ability }: { ability: DrawSteelAbility }) {
             </span>
           </div>
         </div>
-        <div>{ability.trigger}</div>
-        <div className="space-y-2">
-          {ability.effects.map((effect, index) => (
-            <Effect key={index} effect={effect} />
-          ))}
-        </div>
+        {ability.trigger && (
+          <div>
+            <span className="font-semibold">{"Trigger: "}</span>
+            {ability.trigger}
+          </div>
+        )}
+        {ability.effects.length > 0 && (
+          <div className="space-y-2">
+            {ability.effects.map((effect, index) => (
+              <Effect key={index} effect={effect} />
+            ))}
+          </div>
+        )}
         {ability.flavor && <div className="italic">{ability.flavor}</div>}
       </div>
     </div>
@@ -191,57 +200,84 @@ function Ability({ ability }: { ability: DrawSteelAbility }) {
 }
 
 function Effect({ effect }: { effect: DrawSteelEffect }) {
-  if ("roll" in effect) {
-    return (
-      <div className="space-y-[1px]">
-        {/* <div className="font-semibold">{effect.roll}</div> */}
-        {Object.keys(effect).map(key => (
-          <div key={key}>
-            {key in effect && effect[key] && (
-              <div className="flex gap-1">
-                <span className="font-semibold text-xs min-w-9 h-[19px] grid place-items-center border rounded-sm">
-                  {(() => {
-                    if (key === "t1") return "<11";
-                    if (key === "t2") return "12-16";
-                    if (key === "t3") return "17+";
-                  })()}
-                </span>
-                <span className="">{highlightPotencies(effect[key])}</span>
-                {/* <span>{effect[key].replace(potencyRegex, `<b>$1</b>`)}</span> */}
-              </div>
-            )}
+  const PowerRollEntries = Object.keys(effect)
+    .filter(key =>
+      [
+        "t1",
+        "t2",
+        "t3",
+        "crit",
+        "11 or lower",
+        "12-16",
+        "17+",
+        "nat 19-20",
+      ].includes(key)
+    )
+    .map(key => (
+      <div key={key}>
+        {key in effect && (effect as { [k: string]: string })[key] && (
+          <div className="flex gap-1">
+            <span className="font-semibold text-xs min-w-9 h-[19px] grid place-items-center border rounded-sm">
+              {(() => {
+                if (key === "t1" || key === "11 or lower") return "<11";
+                if (key === "t2" || key === "12-16") return "12-16";
+                if (key === "t3" || key === "17+") return "17+";
+                if (key === "crit" || key === "nat 19-20") return "crit";
+              })()}
+            </span>
+            <span>
+              {applyTextEffects((effect as { [k: string]: string })[key])}
+            </span>
           </div>
-        ))}
+        )}
       </div>
-    );
+    ));
+
+  if ("roll" in effect) {
+    return <div className="space-y-[1px]">{PowerRollEntries}</div>;
   }
 
   return (
-    <div className="">
-      {"name" in effect && (
-        <span className="font-semibold">{`${effect.name}: `}</span>
+    <>
+      <div>
+        {"name" in effect && (
+          <span className="font-semibold">{`${effect.name}: `}</span>
+        )}
+        {"cost" in effect && (
+          <span className="font-semibold">{`${effect.cost}: `}</span>
+        )}
+        {"effect" in effect && <span>{applyTextEffects(effect.effect)}</span>}
+      </div>
+      {PowerRollEntries.length > 0 && (
+        <div className="space-y-[1px]">{PowerRollEntries}</div>
       )}
-      {"cost" in effect && (
-        <span className="font-semibold">{`${effect.cost}: `}</span>
-      )}
-      {"effect" in effect && <span>{highlightPotencies(effect.effect)}</span>}
-    </div>
+    </>
   );
 }
 
-function highlightPotencies(string: string) {
+function applyTextEffects(string: string) {
   const potencyRegex = /([MAIRP][ ][<][ ][-]?[\d])+/g;
+  const characteristicTestRegex =
+    /((?:Might|Agility|Intuition|Reason|Presence)(?: test))+/g;
 
-  return string.split(potencyRegex).map((val, index) => (
-    <span
-      key={index}
-      className={
-        index % 2
-          ? "bg-zinc-950 rounded-sm font-semibold px-0.5 text-xs text-white"
-          : ""
-      }
-    >
-      {val}
-    </span>
-  ));
+  return string.split(potencyRegex).map((val, index) =>
+    index % 2 ? (
+      <span
+        key={index}
+        className="bg-zinc-950 rounded-sm font-semibold px-0.5 text-xs text-white"
+      >
+        {val}
+      </span>
+    ) : (
+      val.split(characteristicTestRegex).map((val, index) =>
+        index % 2 ? (
+          <span key={index} className="font-bold">
+            {val}
+          </span>
+        ) : (
+          <span key={index}>{val}</span>
+        )
+      )
+    )
+  );
 }
