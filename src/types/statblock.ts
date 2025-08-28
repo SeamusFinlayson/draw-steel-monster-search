@@ -103,118 +103,17 @@ export interface DrawSteelTrait {
   /**
    * List of effects (flexible formats)
    */
-  effects: [
-    (
-      | {
-          /**
-           * Power Roll expression (e.g., "2d10 + 3")
-           */
-          roll: string;
-          /**
-           * Tier result (key can be '11 or lower', '12-16', '17+', 'crit', etc.)
-           */
-          [k: string]: string;
-        }
-      | {
-          /**
-           * Name of the effect
-           */
-          name: string;
-          /**
-           * Cost to trigger this effect
-           */
-          cost: string;
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-      | {
-          /**
-           * Name of the effect
-           */
-          name: string;
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-      | {
-          /**
-           * Cost to trigger this effect
-           */
-          cost: string;
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-      | {
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-    ),
-    ...(
-      | {
-          /**
-           * Power Roll expression (e.g., "2d10 + 3")
-           */
-          roll: string;
-          /**
-           * Tier result (key can be '11 or lower', '12-16', '17+', 'crit', etc.)
-           */
-          [k: string]: string;
-        }
-      | {
-          /**
-           * Name of the effect
-           */
-          name: string;
-          /**
-           * Cost to trigger this effect
-           */
-          cost: string;
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-      | {
-          /**
-           * Name of the effect
-           */
-          name: string;
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-      | {
-          /**
-           * Cost to trigger this effect
-           */
-          cost: string;
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-      | {
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-    )[]
-  ];
+  effects: [DrawSteelEffect, ...DrawSteelEffect[]];
 }
 export interface DrawSteelAbility {
   /**
    * The title or description of the ability
    */
   name: string;
+  /**
+   * The icon of the ability (ex: "🏹")
+   */
+  icon?: string;
   /**
    * Ability type (e.g., "Action", "Maneuver", "Triggered Action", "Villain Action 1")
    */
@@ -242,112 +141,7 @@ export interface DrawSteelAbility {
   /**
    * List of effects (flexible formats)
    */
-  effects: [
-    (
-      | {
-          /**
-           * Power Roll expression (e.g., "2d10 + 3")
-           */
-          roll: string;
-          /**
-           * Tier result (key can be '11 or lower', '12-16', '17+', 'crit', etc.)
-           */
-          [k: string]: string;
-        }
-      | {
-          /**
-           * Name of the effect
-           */
-          name: string;
-          /**
-           * Cost to trigger this effect
-           */
-          cost: string;
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-      | {
-          /**
-           * Name of the effect
-           */
-          name: string;
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-      | {
-          /**
-           * Cost to trigger this effect
-           */
-          cost: string;
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-      | {
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-    ),
-    ...(
-      | {
-          /**
-           * Power Roll expression (e.g., "2d10 + 3")
-           */
-          roll: string;
-          /**
-           * Tier result (key can be '11 or lower', '12-16', '17+', 'crit', etc.)
-           */
-          [k: string]: string;
-        }
-      | {
-          /**
-           * Name of the effect
-           */
-          name: string;
-          /**
-           * Cost to trigger this effect
-           */
-          cost: string;
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-      | {
-          /**
-           * Name of the effect
-           */
-          name: string;
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-      | {
-          /**
-           * Cost to trigger this effect
-           */
-          cost: string;
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-      | {
-          /**
-           * Description of what the effect does
-           */
-          effect: string;
-        }
-    )[]
-  ];
+  effects: [DrawSteelEffect, ...DrawSteelEffect[]];
   /**
    * Flavor text of the ability
    */
@@ -359,3 +153,62 @@ export interface DrawSteelAbility {
     [k: string]: unknown;
   };
 }
+export type DrawSteelEffect =
+  | {
+      /**
+       * Power Roll expression (e.g., "2d10 + 3")
+       */
+      roll: string;
+      t1?: string;
+      t2?: string;
+      t3?: string;
+      crit?: string;
+      "11 or lower"?: string;
+      "12-16"?: string;
+      "17+"?: string;
+      "nat 19-20"?: string;
+      /**
+       * Tier result (key can be '11 or lower', '12-16', '17+', 'crit', etc.)
+       */
+      [k: string]: string | undefined;
+    }
+  | {
+      /**
+       * Name of the effect
+       */
+      name: string;
+      /**
+       * Cost to trigger this effect
+       */
+      cost: string;
+      /**
+       * Description of what the effect does
+       */
+      effect: string;
+    }
+  | {
+      /**
+       * Name of the effect
+       */
+      name: string;
+      /**
+       * Description of what the effect does
+       */
+      effect: string;
+    }
+  | {
+      /**
+       * Cost to trigger this effect
+       */
+      cost: string;
+      /**
+       * Description of what the effect does
+       */
+      effect: string;
+    }
+  | {
+      /**
+       * Description of what the effect does
+       */
+      effect: string;
+    };

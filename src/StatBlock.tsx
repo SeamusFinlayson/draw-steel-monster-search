@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import type {
   DrawSteelAbility,
+  DrawSteelEffect,
   DrawSteelStatblock,
   DrawSteelTrait,
 } from "./types/statblock";
@@ -189,38 +190,14 @@ function Ability({ ability }: { ability: DrawSteelAbility }) {
   );
 }
 
-function Effect({
-  effect,
-}: {
-  effect:
-    | {
-        [k: string]: string;
-        roll: string;
-      }
-    | {
-        name: string;
-        cost: string;
-        effect: string;
-      }
-    | {
-        name: string;
-        effect: string;
-      }
-    | {
-        cost: string;
-        effect: string;
-      }
-    | {
-        effect: string;
-      };
-}) {
+function Effect({ effect }: { effect: DrawSteelEffect }) {
   if ("roll" in effect) {
     return (
       <div className="space-y-[1px]">
         {/* <div className="font-semibold">{effect.roll}</div> */}
-        {["t1", "t2", "t3", "critical"].map(key => (
+        {Object.keys(effect).map(key => (
           <div key={key}>
-            {key in effect && (
+            {key in effect && effect[key] && (
               <div className="flex gap-1">
                 <span className="font-semibold text-xs min-w-9 h-[19px] grid place-items-center border rounded-sm">
                   {(() => {
