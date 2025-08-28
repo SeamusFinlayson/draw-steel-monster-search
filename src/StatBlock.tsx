@@ -19,7 +19,6 @@ import type {
 } from "./types/statblockZod";
 
 export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
-  console.log(typeof statblock.stamina);
   return (
     <div className="w-full max-w-lg space-y-2">
       <div>
