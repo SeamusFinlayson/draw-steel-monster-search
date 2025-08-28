@@ -15,7 +15,7 @@ function App() {
     async function fetchData() {
       // Get
       const response = await fetch(
-        "https://api.github.com/repos/SteelCompendium/data-bestiary-json/git/trees/main?recursive=1"
+        "https://api.github.com/repos/SeamusFinlayson/data-bestiary-json/git/trees/main?recursive=1"
       );
       const json = await response.json();
 
@@ -27,7 +27,7 @@ function App() {
       console.log(tree);
       const paths = tree.map(
         (item: { path: string }) =>
-          `https://raw.githubusercontent.com/SteelCompendium/data-bestiary-json/main/${item.path}`
+          `https://raw.githubusercontent.com/SeamusFinlayson/data-bestiary-json/main/${item.path}`
       );
       setStatBlockPaths(paths);
     }
