@@ -15,7 +15,7 @@
     "lucide-react": "^0.541.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "steel-compendium-sdk": "^0.0.37",
+    "steel-compendium-sdk": "^0.0.39",
     "tailwindcss": "^4.1.12"
   },
   "devDependencies": {

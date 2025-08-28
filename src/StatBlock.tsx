@@ -216,13 +216,13 @@ function Effect({
 }) {
   if ("roll" in effect) {
     return (
-      <div>
+      <div className="space-y-[1px]">
         {/* <div className="font-semibold">{effect.roll}</div> */}
         {["t1", "t2", "t3", "critical"].map(key => (
           <div key={key}>
             {key in effect && (
-              <div className="flex gap-1 items-center">
-                <span className="font-semibold text-xs min-w-9 h-[18px] grid place-items-center border rounded-sm">
+              <div className="flex gap-1">
+                <span className="font-semibold text-xs min-w-9 h-[19px] grid place-items-center border rounded-sm">
                   {(() => {
                     if (key === "t1") return "<11";
                     if (key === "t2") return "12-16";
