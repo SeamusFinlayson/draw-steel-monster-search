@@ -9,15 +9,17 @@ import {
   SwordIcon,
   UserIcon,
 } from "lucide-react";
+
+import { targetArrow } from "@lucide/lab";
 import type {
   DrawSteelAbility,
   DrawSteelEffect,
   DrawSteelStatblock,
   DrawSteelTrait,
-} from "./types/statblock";
-import { targetArrow } from "@lucide/lab";
+} from "./types/statblockZod";
 
 export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
+  console.log(typeof statblock.stamina);
   return (
     <div className="w-full max-w-lg space-y-2">
       <div>

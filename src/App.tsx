@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
-import { validator } from "steel-compendium-sdk";
-import type { DrawSteelStatblock } from "./types/statblock";
 import { StatBlock } from "./StatBlock";
+import {
+  drawSteelStatblock,
+  type DrawSteelStatblock,
+} from "./types/statblockZod";
 
 function App() {
   const [inputValue, setInputValue] = useState("");
@@ -74,17 +76,15 @@ function App() {
               const json = await response.json();
 
               // Validate
-              const validation = await validator.validateJSON(
-                json,
-                "statblock.schema.json"
-              );
-              if (!validation.valid) {
-                badStatblocks.push({ file: path, errors: validation.errors });
+              const result = drawSteelStatblock.safeParse(json);
+              if (!result.success) {
+                badStatblocks.push({ file: path, errors: result.error });
               }
             })
           );
 
-          console.log(badStatblocks);
+          if (badStatblocks.length > 0) console.error(badStatblocks);
+          else console.log("All statblock pass validation");
           setInvalidStatblockURLs([...badStatblocks].map(val => val.file));
         }}
       >
@@ -110,12 +110,10 @@ function App() {
                   const json = await response.json();
 
                   // Validate
-                  const validation = await validator.validateJSON(
-                    json,
-                    "statblock.schema.json"
-                  );
-                  if (!validation.valid) {
-                    console.error(json, validation.errors);
+                  const result = drawSteelStatblock.safeParse(json);
+
+                  if (!result.success) {
+                    console.error(json, result.error);
                     throw "stat block did not match schema";
                   } else console.log(json);
 
