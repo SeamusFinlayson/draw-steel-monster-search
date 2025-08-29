@@ -88,11 +88,9 @@ function App() {
       {activeJsonBundle?.statblock && (
         <div className="w-full bg-zinc-50 top-0 left-0 fixed h-full ">
           <div className="h-full flex flex-col items-center">
-            <div className="overflow-y-auto p-6 size-full space-y-6">
+            <div className="overflow-y-auto p-6 size-full flex flex-col items-center gap-6">
               <StatBlock statblock={activeJsonBundle.statblock} />
-              <div className="grid place-items-center">
-                <LeafIcon />
-              </div>
+              <LeafIcon className="shrink-0" />
               {activeJsonBundle.malice && (
                 <MaliceBlock malice={activeJsonBundle.malice} />
               )}

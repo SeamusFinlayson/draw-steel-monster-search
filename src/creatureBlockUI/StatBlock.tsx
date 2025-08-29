@@ -5,7 +5,7 @@ import { Trait } from "./Trait";
 export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
   return (
     <div className="w-full max-w-lg space-y-2">
-      <div className=" p-1 rounded-sm bg-zinc-300">
+      <div className=" p-2 rounded-sm bg-zinc-300">
         <div className="flex justify-between items-end">
           <div className="font-bold text-base">{statblock.name}</div>
           <div className="font-bold">{`Level ${statblock.level} ${statblock.roles}`}</div>
@@ -16,8 +16,8 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
         </div>
       </div>
 
-      <div className="space-y-2 px-1">
-        <div className="flex flex-wrap justify-between gap-2 px-1">
+      <div className="space-y-2 px-2">
+        <div className="flex flex-wrap justify-between gap-2">
           {[
             { label: "Size", value: statblock.size },
             { label: "Speed", value: statblock.speed },
@@ -61,7 +61,7 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
 
       <div className="w-full border-b border-zinc-950" />
 
-      <div className="flex flex-wrap justify-between gap-1.5 text-sm px-1">
+      <div className="flex flex-wrap justify-between gap-1.5 text-sm px-2">
         {[
           { label: "Might", value: statblock.might },
           { label: "Agility", value: statblock.agility },

@@ -9,10 +9,15 @@ import { Feature } from "./Feature";
 export function MaliceBlock({ malice }: { malice: DrawSteelMalice }) {
   return (
     <div className="w-full max-w-lg">
-      <div className=" p-1 rounded-sm bg-zinc-300">
+      <div className=" p-2 rounded-sm bg-zinc-300">
         <div className="flex justify-between items-end">
           <div className="font-bold text-base">{malice.name}</div>
+          <div className="font-bold ">
+            <span>{malice.level}</span>
+            <span>{malice.type}</span>
+          </div>
         </div>
+        <div>{malice.flavor}</div>
       </div>
 
       <div>
