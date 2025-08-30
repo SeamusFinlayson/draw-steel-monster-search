@@ -1,0 +1,97 @@
+import getUrl from "../helpers/getUrl";
+import { githubTree } from "../types/githubZod";
+import {
+  indexBundle as IndexBundleZod,
+  type IndexBundle,
+  type PathBundle,
+} from "../types/bundlesZod";
+import { type DrawSteelStatblock } from "../types/statblockZod";
+
+export async function generateIndex() {
+  // Get File structure
+  const getGithubTree = async (url: string, recursive = false) => {
+    const request = await fetch(url + (recursive ? "?recursive=1" : ""));
+    const json = await request.json();
+    const tree = githubTree.parse(json.tree);
+    return tree;
+  };
+  const rootTree = await getGithubTree(
+    "https://api.github.com/repos/SeamusFinlayson/data-bestiary-json/git/trees/main?recursive=1"
+  );
+
+  // Get immediate subdirectories of the monster folder
+  const groups = rootTree.filter(
+    item =>
+      item.path.startsWith("Monsters/") && item.path.match(/\//g)?.length === 1
+  );
+
+  // In the order of the subdirectories create bundles of monster statblocks and relevant features
+  const pathBundles: PathBundle[] = [];
+  for (let i = 0; i < groups.length; i++) {
+    const malice = rootTree
+      .filter(
+        val =>
+          val.path.startsWith(groups[i].path) &&
+          val.path.includes("Features/") &&
+          val.path.includes("Malice") &&
+          val.path.endsWith(".json")
+      )
+      .map(val => val.path);
+
+    pathBundles.push(
+      ...rootTree
+        .filter(
+          val =>
+            val.path.startsWith(groups[i].path) &&
+            val.path.includes("Statblocks/") &&
+            val.path.endsWith(".json")
+        )
+        .map(val => ({
+          statblock: val.path,
+          features: malice,
+        }))
+    );
+  }
+
+  // Add data from each monster statblock to index
+  const indexBundles: IndexBundle[] = await Promise.all(
+    pathBundles.map(async pathBundle => {
+      // Get
+      const response = await fetch(getUrl(pathBundle.statblock));
+      const json = (await response.json()) as DrawSteelStatblock;
+
+      // Format
+      const indexBundle = {
+        ...pathBundle,
+        name: json.name,
+        ev: json.ev,
+        roles: json.roles,
+        ancestry: json.ancestry,
+        level: json.level,
+      };
+
+      // Special handling for dragons
+      if (pathBundle.statblock.endsWith("Dragon.json")) {
+        indexBundle.features = indexBundle.features.filter(feature =>
+          feature.includes(indexBundle.name)
+        );
+      }
+
+      // Validate
+      return IndexBundleZod.parse(indexBundle);
+    })
+  );
+
+  // Convert the JSON data to a string
+  const json = JSON.stringify(indexBundles);
+
+  // Create a new Blob object with the JSON data and set its type
+  const blob = new Blob([json], { type: "application/json" });
+
+  // Create a temporary URL for the file
+  const url = URL.createObjectURL(blob);
+
+  console.log("Index Generation Done");
+
+  return { href: url, download: "statblockIndex" };
+}

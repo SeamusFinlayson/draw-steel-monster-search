@@ -8,7 +8,7 @@ export const drawSteelTrait = z.strictObject({
 });
 export const drawSteelStatblock = z.strictObject({
   name: z.string(),
-  level: z.number().optional(),
+  level: z.number(),
   roles: z.array(z.string()),
   ancestry: z.array(z.string()),
   ev: z.string(),

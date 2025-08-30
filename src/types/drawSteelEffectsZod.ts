@@ -5,7 +5,7 @@ export const powerRollEffect = z.strictObject({
   t1: z.string(),
   t2: z.string(),
   t3: z.string(),
-  crit: z.string().optional(),
+  crit: z.string().optional(), // doesnt exist in data, not sure why its included in schema
   // "11 or lower": z.string().optional(),
   // "12-16": z.string().optional(),
   // "17+": z.string().optional(),
@@ -18,7 +18,7 @@ export const testEffect = z.strictObject({
   t1: z.string(),
   t2: z.string(),
   t3: z.string(),
-  crit: z.string().optional(),
+  crit: z.string().optional(), // doesnt exist in data, not sure why its included in schema
   // "11 or lower": z.string().optional(),
   // "12-16": z.string().optional(),
   // "17+": z.string().optional(),

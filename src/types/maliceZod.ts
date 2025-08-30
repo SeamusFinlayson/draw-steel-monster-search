@@ -4,7 +4,7 @@ import { drawSteelAbility } from "./drawSteelAbilityZod";
 
 export const drawSteelMaliceFeature = z.strictObject({
   name: z.string(),
-  icon: z.string().optional(),
+  icon: z.string().optional(), // shouldnt be optional
   cost: z.string(),
   effects: z.array(drawSteelEffect),
 });
@@ -13,9 +13,9 @@ export const drawSteelMalice = z.strictObject({
   type: z
     .union([z.literal("Malice Features"), z.literal("+ Malice Features")])
     .optional(), // shoudlnt be optional, "+ malice feature" shouldnt be valid
-  level: z.number().optional(), // shouldnt be optional
+  level: z.number().optional(),
   flavor: z.string(),
-  stats: z.array(z.unknown()).max(0), // shouldnt exist
+  stats: z.array(z.unknown()).max(0).optional(), // shouldnt exist
   features: z.array(z.union([drawSteelMaliceFeature, drawSteelAbility])),
 });
 export type DrawSteelMaliceFeature = z.infer<typeof drawSteelMaliceFeature>;
