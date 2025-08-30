@@ -25,7 +25,10 @@ export function MaliceBlock({ malice }: { malice: DrawSteelMalice }) {
           const feature = drawSteelMaliceFeature.safeParse(item);
           if (feature.success) {
             return (
-              <div className="p-2 pl-0 border-b border-zinc-950">
+              <div
+                key={feature.data.name}
+                className="p-2 pl-0 border-b border-zinc-950"
+              >
                 <Feature feature={feature.data} />
               </div>
             );
@@ -33,8 +36,11 @@ export function MaliceBlock({ malice }: { malice: DrawSteelMalice }) {
           const ability = drawSteelAbility.safeParse(item);
           if (ability.success)
             return (
-              <div className="p-2 pl-0 border-b border-zinc-950">
-                <Ability key={item.name} ability={ability.data} />
+              <div
+                key={ability.data.name}
+                className="p-2 pl-0 border-b border-zinc-950"
+              >
+                <Ability ability={ability.data} />
               </div>
             );
         })}

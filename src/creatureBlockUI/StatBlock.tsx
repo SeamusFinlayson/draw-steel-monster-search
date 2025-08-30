@@ -35,11 +35,11 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
           <div className="flex justify-between">
             <div>
               <span className="font-bold">{"Immunity: "}</span>
-              {statblock.immunities ? statblock.immunities : "—"}
+              {statblock.immunities ? statblock.immunities.join(", ") : "—"}
             </div>
             <div>
               <span className="font-bold">{"Weakness: "}</span>
-              {statblock.weaknesses ? statblock.weaknesses : "—"}
+              {statblock.weaknesses ? statblock.weaknesses.join(", ") : "—"}
             </div>
           </div>
           <div className="flex justify-between">
@@ -80,16 +80,16 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
 
       <div>
         {statblock.traits?.map(trait => (
-          <div className="p-2 pl-0 border-b border-zinc-950">
-            <Trait key={trait.name} trait={trait} />
+          <div key={trait.name} className="p-2 pl-0 border-b border-zinc-950">
+            <Trait trait={trait} />
           </div>
         ))}
       </div>
 
       <div>
         {statblock.abilities?.map(ability => (
-          <div className="p-2 pl-0 border-b border-zinc-950">
-            <Ability key={ability.name} ability={ability} />
+          <div key={ability.name} className="p-2 pl-0 border-b border-zinc-950">
+            <Ability ability={ability} />
           </div>
         ))}
       </div>
