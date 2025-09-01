@@ -5,13 +5,17 @@ import { drawSteelAbility } from "./drawSteelAbilityZod";
 export const drawSteelMaliceFeature = z.strictObject({
   name: z.string(),
   icon: z.string().optional(), // shouldnt be optional
-  cost: z.string(),
+  cost: z.string().optional(),
   effects: z.array(drawSteelEffect),
 });
 export const drawSteelMalice = z.strictObject({
   name: z.string(),
   type: z
-    .union([z.literal("Malice Features"), z.literal("+ Malice Features")])
+    .union([
+      z.literal("Malice Features"),
+      z.literal("+ Malice Features"),
+      z.literal("Ajax Feature"),
+    ])
     .optional(), // shoudlnt be optional, "+ malice feature" shouldnt be valid
   level: z.number().optional(),
   flavor: z.string(),

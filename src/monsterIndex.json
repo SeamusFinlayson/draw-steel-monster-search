@@ -1,7 +1,10 @@
 [
   {
     "statblock": "Monsters/Ajax the Invincible/Statblocks/Ajax the Invincible.json",
-    "features": ["Monsters/Ajax the Invincible/Features/Ajaxs Malice.json"],
+    "features": [
+      "Monsters/Ajax the Invincible/Features/Ajaxs Malice.json",
+      "Monsters/Ajax the Invincible/Features/Tactical Stance.json"
+    ],
     "name": "Ajax the Invincible",
     "level": 11,
     "ev": "156",
@@ -181,7 +184,10 @@
   },
   {
     "statblock": "Monsters/Bugbears/Statblocks/Bugbear Channeler.json",
-    "features": ["Monsters/Bugbears/Features/Bugbear Malice.json"],
+    "features": [
+      "Monsters/Bugbears/Features/Bugbear Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Bugbear Channeler",
     "level": 2,
     "ev": "16",
@@ -190,7 +196,10 @@
   },
   {
     "statblock": "Monsters/Bugbears/Statblocks/Bugbear Commander.json",
-    "features": ["Monsters/Bugbears/Features/Bugbear Malice.json"],
+    "features": [
+      "Monsters/Bugbears/Features/Bugbear Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Bugbear Commander",
     "level": 2,
     "ev": "16",
@@ -199,7 +208,10 @@
   },
   {
     "statblock": "Monsters/Bugbears/Statblocks/Bugbear Knightmare.json",
-    "features": ["Monsters/Bugbears/Features/Bugbear Malice.json"],
+    "features": [
+      "Monsters/Bugbears/Features/Bugbear Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Bugbear Knightmare",
     "level": 8,
     "ev": "10 for four minions",
@@ -208,7 +220,10 @@
   },
   {
     "statblock": "Monsters/Bugbears/Statblocks/Bugbear Mob.json",
-    "features": ["Monsters/Bugbears/Features/Bugbear Malice.json"],
+    "features": [
+      "Monsters/Bugbears/Features/Bugbear Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Bugbear Mob",
     "level": 5,
     "ev": "7 for four minions",
@@ -217,7 +232,10 @@
   },
   {
     "statblock": "Monsters/Bugbears/Statblocks/Bugbear Roughneck.json",
-    "features": ["Monsters/Bugbears/Features/Bugbear Malice.json"],
+    "features": [
+      "Monsters/Bugbears/Features/Bugbear Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Bugbear Roughneck",
     "level": 2,
     "ev": "16",
@@ -226,7 +244,10 @@
   },
   {
     "statblock": "Monsters/Bugbears/Statblocks/Bugbear Snare.json",
-    "features": ["Monsters/Bugbears/Features/Bugbear Malice.json"],
+    "features": [
+      "Monsters/Bugbears/Features/Bugbear Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Bugbear Snare",
     "level": 5,
     "ev": "7 for four minions",
@@ -235,7 +256,10 @@
   },
   {
     "statblock": "Monsters/Bugbears/Statblocks/Bugbear Sneak.json",
-    "features": ["Monsters/Bugbears/Features/Bugbear Malice.json"],
+    "features": [
+      "Monsters/Bugbears/Features/Bugbear Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Bugbear Sneak",
     "level": 2,
     "ev": "16",
@@ -1614,7 +1638,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Grilp.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Grilp",
     "level": 4,
     "ev": "6 for four minions",
@@ -1623,7 +1650,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin Bloodlord.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin Bloodlord",
     "level": 6,
     "ev": "32",
@@ -1632,7 +1662,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin Brandbearer.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin Brandbearer",
     "level": 4,
     "ev": "6 for four minions",
@@ -1641,7 +1674,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin Burning Witch.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin Burning Witch",
     "level": 4,
     "ev": "12",
@@ -1650,7 +1686,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin Death Captain.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin Death Captain",
     "level": 4,
     "ev": "12",
@@ -1659,7 +1698,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin Firerunner.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin Firerunner",
     "level": 5,
     "ev": "14",
@@ -1668,7 +1710,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin Grandguard.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin Grandguard",
     "level": 6,
     "ev": "16",
@@ -1677,7 +1722,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin Hell Trooper.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin Hell Trooper",
     "level": 4,
     "ev": "12",
@@ -1686,7 +1734,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin Incendiarist.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin Incendiarist",
     "level": 5,
     "ev": "14",
@@ -1695,7 +1746,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin Lancer.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin Lancer",
     "level": 4,
     "ev": "6 for four minions",
@@ -1704,7 +1758,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin Recruit.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin Recruit",
     "level": 4,
     "ev": "6 for four minions",
@@ -1713,7 +1770,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin Redglare.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin Redglare",
     "level": 6,
     "ev": "16",
@@ -1722,7 +1782,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin Smokebinder.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin Smokebinder",
     "level": 5,
     "ev": "14",
@@ -1731,7 +1794,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Hobgoblin War Mage.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Hobgoblin War Mage",
     "level": 5,
     "ev": "28",
@@ -1740,7 +1806,10 @@
   },
   {
     "statblock": "Monsters/Hobgoblins/Statblocks/Slaughter Demon.json",
-    "features": ["Monsters/Hobgoblins/Features/Hobgoblin Malice.json"],
+    "features": [
+      "Monsters/Hobgoblins/Features/Hobgoblin Malice.json",
+      "Monsters/Goblins/Features/Goblin Malice.json"
+    ],
     "name": "Slaughter Demon",
     "level": 4,
     "ev": "24",

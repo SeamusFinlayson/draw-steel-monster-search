@@ -33,7 +33,6 @@ export async function generateIndex() {
         val =>
           val.path.startsWith(groups[i].path) &&
           val.path.includes("Features/") &&
-          val.path.includes("Malice") &&
           val.path.endsWith(".json")
       )
       .map(val => val.path);
@@ -71,10 +70,21 @@ export async function generateIndex() {
       };
 
       // Special handling for dragons
-      if (pathBundle.statblock.endsWith("Dragon.json")) {
+      if (pathBundle.statblock.startsWith("Monsters/Dragons/Statblocks/")) {
         indexBundle.features = indexBundle.features.filter(feature =>
           feature.includes(indexBundle.name)
         );
+      }
+
+      // Special handling for hobgoblins and bugbears
+      if (
+        pathBundle.statblock.startsWith("Monsters/Hobgoblins/Statblocks/") ||
+        pathBundle.statblock.startsWith("Monsters/Bugbears/Statblocks/")
+      ) {
+        indexBundle.features = [
+          ...indexBundle.features,
+          "Monsters/Goblins/Features/Goblin Malice.json",
+        ];
       }
 
       // Validate

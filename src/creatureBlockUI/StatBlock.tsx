@@ -78,7 +78,7 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
 
       <div className="w-full border-b border-zinc-950 mb-0" />
 
-      <div>
+      <div className="mb-0">
         {statblock.traits?.map(trait => (
           <div key={trait.name} className="p-2 pl-0 border-b border-zinc-950">
             <Trait trait={trait} />
