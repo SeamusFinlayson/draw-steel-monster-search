@@ -4,11 +4,12 @@ import type { StatblockDataBundle } from "./types/bundlesZod";
 
 export default function MonsterView({
   activeMonsterData,
-  setActiveMonsterData,
 }: {
   activeMonsterData: StatblockDataBundle;
-  setActiveMonsterData: (value: undefined) => void;
 }) {
+  const url = new URL(window.location.href);
+  url.searchParams.delete("statblock");
+
   return (
     <div className="flex flex-col items-center pb-[60px]">
       <div className=" p-6  flex flex-col items-center gap-12">
@@ -20,12 +21,12 @@ export default function MonsterView({
           ))}
       </div>
       <div className="fixed left-0 bottom-0 w-full p-2 pt-0 bg-zinc-50">
-        <button
+        <a
           className=" bg-zinc-950  w-full hover:bg-zinc-900 duration-100 text-white  rounded-2xl p-4 grid place-items-center"
-          onClick={() => setActiveMonsterData(undefined)}
+          href={url.toString()}
         >
           Close
-        </button>
+        </a>
       </div>
     </div>
   );

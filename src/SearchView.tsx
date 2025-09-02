@@ -1,23 +1,17 @@
 import { useState } from "react";
 import fuzzysort from "fuzzysort";
-import type { IndexBundle, StatblockDataBundle } from "./types/bundlesZod";
+import type { IndexBundle } from "./types/bundlesZod";
 import { validateStatblocks } from "./actions/validateStatblocks";
 import { validateMalice } from "./actions/validatemalice";
 import { generateIndex } from "./actions/generateIndex";
-import { drawSteelMalice } from "./types/maliceZod";
-import { drawSteelStatblock } from "./types/statblockZod";
-import getUrl from "./helpers/getUrl";
-import getTypedData from "./helpers/getTypedData";
 
 const params = new URLSearchParams(document.location.search);
 const devMode = params.get("dev");
 
 export default function SearchView({
   monsterIndex,
-  setActiveMonsterData,
 }: {
   monsterIndex: IndexBundle[];
-  setActiveMonsterData: (monsterData: StatblockDataBundle) => void;
 }) {
   const [inputValue, setInputValue] = useState("");
   const [invalidStatblockURLs, setInvalidStatblockURLs] = useState<string[]>(
@@ -95,27 +89,10 @@ export default function SearchView({
             .map(val => val.obj)
             .map(indexBundle => (
               <MonsterItem
+                key={indexBundle.statblock}
                 indexBundle={indexBundle}
                 invalidStatblockURLs={invalidStatblockURLs}
-                onClick={async () => {
-                  const statblockUrl = getUrl(indexBundle.statblock);
-                  const maliceUrls = indexBundle.features.map(item =>
-                    getUrl(item)
-                  );
-
-                  const statblock = await getTypedData(
-                    statblockUrl,
-                    drawSteelStatblock.parse
-                  );
-                  const malice = await Promise.all(
-                    maliceUrls.map(item =>
-                      getTypedData(item, drawSteelMalice.parse)
-                    )
-                  );
-
-                  console.log({ statblock, malice });
-                  setActiveMonsterData({ statblock, features: malice });
-                }}
+                statblock={indexBundle.statblock}
               />
             ))}
         </div>
@@ -133,20 +110,23 @@ export default function SearchView({
 function MonsterItem({
   indexBundle,
   invalidStatblockURLs,
-  onClick,
+  statblock,
 }: {
   indexBundle: IndexBundle;
   invalidStatblockURLs: string[];
-  onClick: () => void;
+  statblock: string;
 }) {
+  const url = new URL(window.location.href);
+  url.searchParams.delete("statblock");
+  url.searchParams.set("statblock", statblock);
   return (
-    <button
+    <a
       key={indexBundle.statblock}
       data-error={invalidStatblockURLs.includes(indexBundle.statblock)}
       className="bg-zinc-100 data-[error=true]:bg-red-100 hover:data-[error=true]:bg-red-200 hover:bg-zinc-200 py-2 px-3 duration-100 rounded-sm"
-      onClick={onClick}
+      href={url.toString()}
     >
       {indexBundle.name}
-    </button>
+    </a>
   );
 }
