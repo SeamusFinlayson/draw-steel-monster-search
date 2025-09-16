@@ -14,10 +14,11 @@ export const indexBundle = z.strictObject({
   roles: z.array(z.string()),
   ancestry: z.array(z.string()),
 });
-export const statblockDataBundle = z.strictObject({
+export const monsterDataBundle = z.strictObject({
+  key: z.string(),
   statblock: drawSteelStatblock,
   features: z.array(drawSteelMalice),
 });
 export type IndexBundle = z.infer<typeof indexBundle>;
 export type PathBundle = z.infer<typeof pathBundle>;
-export type StatblockDataBundle = z.infer<typeof statblockDataBundle>;
+export type monsterDataBundle = z.infer<typeof monsterDataBundle>;

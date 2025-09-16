@@ -1,22 +1,22 @@
 import { MaliceBlock } from "./creatureBlockUI/MaliceBlock";
 import { StatBlock } from "./creatureBlockUI/StatBlock";
-import type { StatblockDataBundle } from "./types/bundlesZod";
+import { monsterDataBundle } from "./types/bundlesZod";
 
 export default function MonsterView({
-  activeMonsterData,
+  monsterData: monsterData,
 }: {
-  activeMonsterData: StatblockDataBundle;
+  monsterData: monsterDataBundle;
 }) {
   const url = new URL(window.location.href);
   url.searchParams.delete("statblock");
 
   return (
     <div className="flex flex-col items-center pb-[60px]">
-      <div className=" p-6  flex flex-col items-center gap-12">
-        <StatBlock statblock={activeMonsterData.statblock} />
+      <div className=" p-4  flex flex-col items-center gap-12">
+        <StatBlock statblock={monsterData.statblock} />
         {/* <LeafIcon className="shrink-0" /> */}
-        {activeMonsterData.features.length > 0 &&
-          activeMonsterData.features.map(item => (
+        {monsterData.features.length > 0 &&
+          monsterData.features.map(item => (
             <MaliceBlock key={item.name} malice={item} />
           ))}
       </div>

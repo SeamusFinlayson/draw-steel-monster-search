@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import type { StatblockDataBundle } from "./types/bundlesZod";
+import type { monsterDataBundle } from "./types/bundlesZod";
 import monsterIndexRaw from "./monsterIndex.json";
 import SearchView from "./SearchView";
 import MonsterView from "./MonsterView";
@@ -14,7 +14,7 @@ const statblockUrlParam = params.get("statblock");
 function App() {
   const [statblockPath] = useState(statblockUrlParam);
   const [activeMonsterData, setActiveMonsterData] =
-    useState<StatblockDataBundle>();
+    useState<monsterDataBundle>();
 
   useEffect(() => {
     const addMonsterStatblock = async () => {
@@ -38,7 +38,11 @@ function App() {
       );
 
       console.log({ statblock, malice });
-      setActiveMonsterData({ statblock, features: malice });
+      setActiveMonsterData({
+        key: monster.statblock,
+        statblock,
+        features: malice,
+      });
     };
     addMonsterStatblock();
   }, [statblockPath]);
@@ -46,9 +50,7 @@ function App() {
   return (
     <div className="h-screen text-black text-sm flex flex-col gap-6">
       {statblockPath ? (
-        activeMonsterData && (
-          <MonsterView activeMonsterData={activeMonsterData} />
-        )
+        activeMonsterData && <MonsterView monsterData={activeMonsterData} />
       ) : (
         <SearchView monsterIndex={monsterIndexRaw} />
       )}
