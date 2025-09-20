@@ -6,6 +6,7 @@ import {
   type PathBundle,
 } from "../types/bundlesZod";
 import { type DrawSteelStatblock } from "../types/statblockZod";
+import getGitTreeUrl from "../helpers/getGitTreeUrl";
 
 export async function generateIndex() {
   // Get File structure
@@ -15,9 +16,7 @@ export async function generateIndex() {
     const tree = githubTree.parse(json.tree);
     return tree;
   };
-  const rootTree = await getGithubTree(
-    "https://api.github.com/repos/SeamusFinlayson/data-bestiary-json/git/trees/main?recursive=1"
-  );
+  const rootTree = await getGithubTree(getGitTreeUrl());
 
   // Get immediate subdirectories of the monster folder
   const groups = rootTree.filter(
