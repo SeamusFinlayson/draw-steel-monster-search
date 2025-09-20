@@ -1,6 +1,6 @@
-import { MaliceBlock } from "./creatureBlockUI/MaliceBlock";
-import { StatBlock } from "./creatureBlockUI/StatBlock";
-import { monsterDataBundle } from "./types/bundlesZod";
+import { MaliceBlock } from "../creatureBlockUI/MaliceBlock";
+import { StatBlock } from "../creatureBlockUI/StatBlock";
+import { monsterDataBundle } from "../types/bundlesZod";
 
 export default function MonsterView({
   monsterData: monsterData,

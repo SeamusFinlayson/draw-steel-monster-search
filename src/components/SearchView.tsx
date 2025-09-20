@@ -1,9 +1,9 @@
 import { useState } from "react";
 import fuzzysort from "fuzzysort";
-import type { IndexBundle } from "./types/bundlesZod";
-import { validateStatblocks } from "./actions/validateStatblocks";
-import { validateMalice } from "./actions/validatemalice";
-import { generateIndex } from "./actions/generateIndex";
+import type { IndexBundle } from "../types/bundlesZod";
+import { validateStatblocks } from "../actions/validateStatblocks";
+import { validateMalice } from "../actions/validatemalice";
+import { generateIndex } from "../actions/generateIndex";
 
 const params = new URLSearchParams(document.location.search);
 const devMode = params.get("dev");

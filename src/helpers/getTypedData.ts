@@ -1,4 +1,4 @@
-export default async function getTypedData<T>(
+export default async function fetchTypedData<T>(
   url: string,
   typeGuard: (json: unknown) => T
 ): Promise<T> {

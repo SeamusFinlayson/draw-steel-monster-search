@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import type { monsterDataBundle } from "./types/bundlesZod";
 import monsterIndexRaw from "./monsterIndex.json";
-import SearchView from "./SearchView";
-import MonsterView from "./MonsterView";
-import getTypedData from "./helpers/getTypedData";
+import SearchView from "./components/SearchView";
+import MonsterView from "./components/MonsterView";
+import fetchTypedData from "./helpers/getTypedData";
 import { drawSteelStatblock } from "./types/statblockZod";
 import { drawSteelMalice } from "./types/maliceZod";
 import getUrl from "./helpers/getUrl";
@@ -29,12 +29,12 @@ function App() {
       const statblockUrl = getUrl(monster.statblock);
       const maliceUrls = monster.features.map(item => getUrl(item));
 
-      const statblock = await getTypedData(
+      const statblock = await fetchTypedData(
         statblockUrl,
         drawSteelStatblock.parse
       );
       const malice = await Promise.all(
-        maliceUrls.map(item => getTypedData(item, drawSteelMalice.parse))
+        maliceUrls.map(item => fetchTypedData(item, drawSteelMalice.parse))
       );
 
       console.log({ statblock, malice });
