@@ -288,7 +288,12 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Aurumvas.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 10 Malice Features.json"
+    ],
     "name": "Aurumvas",
     "level": 10,
     "ev": "48",
@@ -297,7 +302,10 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Bale Eye.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json"
+    ],
     "name": "Bale Eye",
     "level": 5,
     "ev": "7",
@@ -306,7 +314,9 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Bendrak.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json"
+    ],
     "name": "Bendrak",
     "level": 2,
     "ev": "4",
@@ -315,7 +325,11 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Blight Phage.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json"
+    ],
     "name": "Blight Phage",
     "level": 7,
     "ev": "9",
@@ -324,7 +338,11 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Chimeron.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json"
+    ],
     "name": "Chimeron",
     "level": 9,
     "ev": "9",
@@ -333,7 +351,9 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Chorogaunt.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json"
+    ],
     "name": "Chorogaunt",
     "level": 3,
     "ev": "20",
@@ -342,7 +362,9 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Ensnarer.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json"
+    ],
     "name": "Ensnarer",
     "level": 1,
     "ev": "3 for four minions",
@@ -351,7 +373,10 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Fangling.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json"
+    ],
     "name": "Fangling",
     "level": 4,
     "ev": "6",
@@ -360,7 +385,10 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Fiktin.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json"
+    ],
     "name": "Fiktin",
     "level": 5,
     "ev": "7",
@@ -369,7 +397,9 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Frenzied.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json"
+    ],
     "name": "Frenzied",
     "level": 1,
     "ev": "3 for four minions",
@@ -378,7 +408,10 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Grulqin.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json"
+    ],
     "name": "Grulqin",
     "level": 4,
     "ev": "6 for four minions",
@@ -387,7 +420,10 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Gunge.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json"
+    ],
     "name": "Gunge",
     "level": 4,
     "ev": "6",
@@ -396,7 +432,12 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Izyak.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 10 Malice Features.json"
+    ],
     "name": "Izyak",
     "level": 10,
     "ev": "12",
@@ -405,7 +446,10 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Lumbering Egress.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json"
+    ],
     "name": "Lumbering Egress",
     "level": 6,
     "ev": "32",
@@ -414,7 +458,9 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Muceron.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json"
+    ],
     "name": "Muceron",
     "level": 3,
     "ev": "5",
@@ -423,7 +469,12 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Optacus.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 10 Malice Features.json"
+    ],
     "name": "Optacus",
     "level": 10,
     "ev": "12 for four minions",
@@ -432,7 +483,10 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Orliq.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json"
+    ],
     "name": "Orliq",
     "level": 4,
     "ev": "6 for four minions",
@@ -441,7 +495,9 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Pitling.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json"
+    ],
     "name": "Pitling",
     "level": 1,
     "ev": "3 for four minions",
@@ -450,7 +506,9 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Remasch.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json"
+    ],
     "name": "Remasch",
     "level": 2,
     "ev": "4",
@@ -459,7 +517,9 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Ruinant.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json"
+    ],
     "name": "Ruinant",
     "level": 1,
     "ev": "3",
@@ -468,7 +528,11 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Soulraker Handmaiden.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json"
+    ],
     "name": "Soulraker Handmaiden",
     "level": 8,
     "ev": "10",
@@ -477,7 +541,11 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Soulraker Hivequeen.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json"
+    ],
     "name": "Soulraker Hivequeen",
     "level": 9,
     "ev": "44",
@@ -486,7 +554,11 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Soulraker Praetorian.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json"
+    ],
     "name": "Soulraker Praetorian",
     "level": 7,
     "ev": "9",
@@ -495,7 +567,11 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Soulraker Scout.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json"
+    ],
     "name": "Soulraker Scout",
     "level": 7,
     "ev": "9 for four minions",
@@ -504,7 +580,11 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Soulraker Soldier.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json"
+    ],
     "name": "Soulraker Soldier",
     "level": 7,
     "ev": "9 for four minions",
@@ -513,7 +593,11 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Soulraker Stinger.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json"
+    ],
     "name": "Soulraker Stinger",
     "level": 7,
     "ev": "9 for four minions",
@@ -522,7 +606,11 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Styrich.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json"
+    ],
     "name": "Styrich",
     "level": 8,
     "ev": "10",
@@ -531,7 +619,9 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Torlas.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json"
+    ],
     "name": "Torlas",
     "level": 1,
     "ev": "3",
@@ -540,7 +630,10 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Tormenauk.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json"
+    ],
     "name": "Tormenauk",
     "level": 6,
     "ev": "8",
@@ -549,7 +642,12 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Tyburaki.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 10 Malice Features.json"
+    ],
     "name": "Tyburaki",
     "level": 10,
     "ev": "12 for four minions",
@@ -558,7 +656,12 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Unguloid.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 10 Malice Features.json"
+    ],
     "name": "Unguloid",
     "level": 10,
     "ev": "12 for four minions",
@@ -567,7 +670,12 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Vicisitator.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 7 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 10 Malice Features.json"
+    ],
     "name": "Vicisitator",
     "level": 10,
     "ev": "12",
@@ -576,7 +684,10 @@
   },
   {
     "statblock": "Monsters/Demons/Statblocks/Wobalas.json",
-    "features": ["Monsters/Demons/Features/Demon Malice.json"],
+    "features": [
+      "Monsters/Demons/Features/Demon Malice Level 1 Malice Features.json",
+      "Monsters/Demons/Features/Demon Malice Level 4 Malice Features.json"
+    ],
     "name": "Wobalas",
     "level": 4,
     "ev": "6 for four minions",
@@ -1193,7 +1304,7 @@
     "level": 1,
     "ev": "6",
     "roles": ["Platoon Defender"],
-    "ancestry": ["Fey", "Humanoid", "Wide Elf"]
+    "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
     "statblock": "Monsters/Elves Wode/Statblocks/Wode Elf Guerrilla.json",
@@ -1256,7 +1367,7 @@
     "level": 3,
     "ev": "20",
     "roles": ["Leader"],
-    "ancestry": ["Fey", "Humanoid. Wode Elf"]
+    "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
     "statblock": "Monsters/Elves Wode/Statblocks/Wode Elf Yeoman.json",
@@ -1457,9 +1568,9 @@
     "ancestry": ["Abyssal", "Gnoll"]
   },
   {
-    "statblock": "Monsters/Gnolls/Statblocks/Gnoll Chainflai.json",
+    "statblock": "Monsters/Gnolls/Statblocks/Gnoll Chainflail.json",
     "features": ["Monsters/Gnolls/Features/Gnoll Malice.json"],
-    "name": "Gnoll Chainflai",
+    "name": "Gnoll Chainflail",
     "level": 2,
     "ev": "4 for four minions",
     "roles": ["Minion Artillery"],
@@ -2059,7 +2170,7 @@
     "level": 1,
     "ev": "12",
     "roles": ["Elite Brute"],
-    "ancestry": ["Kobold", "Humanoid"]
+    "ancestry": ["Kobold", "Beast"]
   },
   {
     "statblock": "Monsters/Kobolds/Statblocks/Trained Gummy Brick.json",
@@ -2288,7 +2399,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Mohler.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Mohler",
     "level": 1,
     "ev": "3 for four minions",
@@ -2297,7 +2408,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Blitzer.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Blitzer",
     "level": 1,
     "ev": "3 for four minions",
@@ -2306,7 +2417,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Bloodrunner.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Bloodrunner",
     "level": 3,
     "ev": "10",
@@ -2315,16 +2426,16 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Bloodspark.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Bloodspark",
     "level": 1,
-    "ev": "3 for four minion",
+    "ev": "3 for four minions",
     "roles": ["Minion Artillery"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Chainlock.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Chainlock",
     "level": 1,
     "ev": "6",
@@ -2333,7 +2444,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Eye of Grole.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Eye of Grole",
     "level": 1,
     "ev": "6",
@@ -2342,7 +2453,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Garotter.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Garotter",
     "level": 1,
     "ev": "6",
@@ -2351,7 +2462,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Glorifier.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Glorifier",
     "level": 1,
     "ev": "3 for four minions",
@@ -2360,7 +2471,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Godcaller.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Godcaller",
     "level": 1,
     "ev": "6",
@@ -2369,7 +2480,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Juggernaut.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Juggernaut",
     "level": 3,
     "ev": "10",
@@ -2378,7 +2489,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Rampart.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Rampart",
     "level": 2,
     "ev": "8",
@@ -2387,7 +2498,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Razor.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Razor",
     "level": 1,
     "ev": "3 for four minions",
@@ -2396,7 +2507,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Terranova.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Terranova",
     "level": 2,
     "ev": "8",
@@ -2405,7 +2516,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Orc Warleader.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Orc Warleader",
     "level": 3,
     "ev": "20",
@@ -2414,7 +2525,7 @@
   },
   {
     "statblock": "Monsters/Orcs/Statblocks/Scyza.json",
-    "features": ["Monsters/Orcs/Features/Orc Malice Malice Features.json"],
+    "features": ["Monsters/Orcs/Features/Orc Malice.json"],
     "name": "Scyza",
     "level": 3,
     "ev": "20",
@@ -2495,8 +2606,10 @@
   },
   {
     "statblock": "Monsters/Rivals/1st Echelon/Statblocks/Rival Conduit.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Conduit",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 2 Rival Conduit",
     "level": 2,
     "ev": "16",
     "roles": ["Elite Support"],
@@ -2504,8 +2617,10 @@
   },
   {
     "statblock": "Monsters/Rivals/1st Echelon/Statblocks/Rival Elementalist.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Elementalist",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 2 Rival Elementalist",
     "level": 2,
     "ev": "16",
     "roles": ["Elite Controller"],
@@ -2513,8 +2628,10 @@
   },
   {
     "statblock": "Monsters/Rivals/1st Echelon/Statblocks/Rival Fury.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Fury",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 2 Rival Fury",
     "level": 2,
     "ev": "16",
     "roles": ["Elite Brute"],
@@ -2522,8 +2639,10 @@
   },
   {
     "statblock": "Monsters/Rivals/1st Echelon/Statblocks/Rival Null.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Null",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 2 Rival Null",
     "level": 2,
     "ev": "16",
     "roles": ["Elite Harrier"],
@@ -2531,8 +2650,10 @@
   },
   {
     "statblock": "Monsters/Rivals/1st Echelon/Statblocks/Rival Shadow.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Shadow",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 2 Rival Shadow",
     "level": 2,
     "ev": "16",
     "roles": ["Elite Ambusher"],
@@ -2540,8 +2661,10 @@
   },
   {
     "statblock": "Monsters/Rivals/1st Echelon/Statblocks/Rival Tactician.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Tactician",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 2 Rival Tactician",
     "level": 2,
     "ev": "16",
     "roles": ["Elite Artillery"],
@@ -2549,8 +2672,10 @@
   },
   {
     "statblock": "Monsters/Rivals/1st Echelon/Statblocks/Rival Talent.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Talent",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 2 Rival Talent",
     "level": 2,
     "ev": "16",
     "roles": ["Elite Hexer"],
@@ -2558,8 +2683,10 @@
   },
   {
     "statblock": "Monsters/Rivals/2nd Echelon/Statblocks/Rival Conduit.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Conduit",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 5 Rival Conduit",
     "level": 5,
     "ev": "28",
     "roles": ["Elite Support"],
@@ -2567,8 +2694,10 @@
   },
   {
     "statblock": "Monsters/Rivals/2nd Echelon/Statblocks/Rival Elementalist.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Elementalist",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 5 Rival Elementalist",
     "level": 5,
     "ev": "28",
     "roles": ["Elite Controller"],
@@ -2576,8 +2705,10 @@
   },
   {
     "statblock": "Monsters/Rivals/2nd Echelon/Statblocks/Rival Fury.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Fury",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 5 Rival Fury",
     "level": 5,
     "ev": "28",
     "roles": ["Elite Brute"],
@@ -2585,8 +2716,10 @@
   },
   {
     "statblock": "Monsters/Rivals/2nd Echelon/Statblocks/Rival Null.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Null",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 5 Rival Null",
     "level": 5,
     "ev": "28",
     "roles": ["Elite Harrier"],
@@ -2594,8 +2727,10 @@
   },
   {
     "statblock": "Monsters/Rivals/2nd Echelon/Statblocks/Rival Shadow.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Shadow",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 5 Rival Shadow",
     "level": 5,
     "ev": "28",
     "roles": ["Elite Ambusher"],
@@ -2603,8 +2738,10 @@
   },
   {
     "statblock": "Monsters/Rivals/2nd Echelon/Statblocks/Rival Tactician.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Tactician",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 5 Rival Tactician",
     "level": 5,
     "ev": "28",
     "roles": ["Elite Artillery"],
@@ -2612,8 +2749,10 @@
   },
   {
     "statblock": "Monsters/Rivals/2nd Echelon/Statblocks/Rival Talent.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Talent",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 5 Rival Talent",
     "level": 5,
     "ev": "28",
     "roles": ["Elite Hexer"],
@@ -2621,8 +2760,10 @@
   },
   {
     "statblock": "Monsters/Rivals/3rd Echelon/Statblocks/Rival Conduit.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Conduit",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 8 Rival Conduit",
     "level": 8,
     "ev": "40",
     "roles": ["Elite Support"],
@@ -2630,8 +2771,10 @@
   },
   {
     "statblock": "Monsters/Rivals/3rd Echelon/Statblocks/Rival Elementalist.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Elementalist",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 8 Rival Elementalist",
     "level": 8,
     "ev": "40",
     "roles": ["Elite Controller"],
@@ -2639,8 +2782,10 @@
   },
   {
     "statblock": "Monsters/Rivals/3rd Echelon/Statblocks/Rival Fury.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Fury",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 8 Rival Fury",
     "level": 8,
     "ev": "40",
     "roles": ["Elite Brute"],
@@ -2648,8 +2793,10 @@
   },
   {
     "statblock": "Monsters/Rivals/3rd Echelon/Statblocks/Rival Null.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Null",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 8 Rival Null",
     "level": 8,
     "ev": "40",
     "roles": ["Elite Harrier"],
@@ -2657,8 +2804,10 @@
   },
   {
     "statblock": "Monsters/Rivals/3rd Echelon/Statblocks/Rival Shadow.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Shadow",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 8 Rival Shadow",
     "level": 8,
     "ev": "40",
     "roles": ["Elite Ambusher"],
@@ -2666,8 +2815,10 @@
   },
   {
     "statblock": "Monsters/Rivals/3rd Echelon/Statblocks/Rival Tactician.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Tactician",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 8 Rival Tactician",
     "level": 8,
     "ev": "40",
     "roles": ["Elite Artillery"],
@@ -2675,8 +2826,10 @@
   },
   {
     "statblock": "Monsters/Rivals/3rd Echelon/Statblocks/Rival Talent.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Talent",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 8 Rival Talent",
     "level": 8,
     "ev": "40",
     "roles": ["Elite Hexer"],
@@ -2684,8 +2837,10 @@
   },
   {
     "statblock": "Monsters/Rivals/4th Echelon/Statblocks/Rival Conduit.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Conduit",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 10 Rival Conduit",
     "level": 10,
     "ev": "48",
     "roles": ["Elite Support"],
@@ -2693,8 +2848,10 @@
   },
   {
     "statblock": "Monsters/Rivals/4th Echelon/Statblocks/Rival Elementalist.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Elementalist",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 10 Rival Elementalist",
     "level": 10,
     "ev": "48",
     "roles": ["Elite Controller"],
@@ -2702,8 +2859,10 @@
   },
   {
     "statblock": "Monsters/Rivals/4th Echelon/Statblocks/Rival Fury.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Fury",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 10 Rival Fury",
     "level": 10,
     "ev": "48",
     "roles": ["Elite Brute"],
@@ -2711,8 +2870,10 @@
   },
   {
     "statblock": "Monsters/Rivals/4th Echelon/Statblocks/Rival Null.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Null",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 10 Rival Null",
     "level": 10,
     "ev": "48",
     "roles": ["Elite Harrier"],
@@ -2720,8 +2881,10 @@
   },
   {
     "statblock": "Monsters/Rivals/4th Echelon/Statblocks/Rival Shadow.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Shadow",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 10 Rival Shadow",
     "level": 10,
     "ev": "48",
     "roles": ["Elite Ambusher"],
@@ -2729,8 +2892,10 @@
   },
   {
     "statblock": "Monsters/Rivals/4th Echelon/Statblocks/Rival Tactician.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Tactician",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 10 Rival Tactician",
     "level": 10,
     "ev": "48",
     "roles": ["Elite Artillery"],
@@ -2738,8 +2903,10 @@
   },
   {
     "statblock": "Monsters/Rivals/4th Echelon/Statblocks/Rival Talent.json",
-    "features": ["Monsters/Rivals/Features/Rival Malice.json"],
-    "name": "Rival Talent",
+    "features": [
+      "Monsters/Rivals/Features/Rival Malice Level 1 Malice Features.json"
+    ],
+    "name": "Level 10 Rival Talent",
     "level": 10,
     "ev": "48",
     "roles": ["Elite Hexer"],
@@ -2902,7 +3069,11 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Blood Starved Vampire.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json"
+    ],
     "name": "Blood-Starved Vampire",
     "level": 7,
     "ev": "9 for four minions",
@@ -2911,7 +3082,12 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Bonecage.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 10 Malice Features.json"
+    ],
     "name": "Bonecage",
     "level": 10,
     "ev": "12",
@@ -2920,7 +3096,9 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Crawling Claw.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json"
+    ],
     "name": "Crawling Claw",
     "level": 1,
     "ev": "3 for four minions",
@@ -2929,7 +3107,9 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Decrepit Skeleton.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json"
+    ],
     "name": "Decrepit Skeleton",
     "level": 1,
     "ev": "3 for four minions",
@@ -2938,7 +3118,11 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Dirt Mournling.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json"
+    ],
     "name": "Dirt Mournling",
     "level": 7,
     "ev": "9",
@@ -2947,7 +3131,11 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Faded Echo Spirit.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json"
+    ],
     "name": "Faded Echo Spirit",
     "level": 7,
     "ev": "9 for four minions",
@@ -2956,7 +3144,10 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Flesh Mournling.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json"
+    ],
     "name": "Flesh Mournling",
     "level": 4,
     "ev": "6",
@@ -2965,7 +3156,10 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Fleshflayed Shambler Zombie.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json"
+    ],
     "name": "Fleshflayed Shambler Zombie",
     "level": 4,
     "ev": "6 for four minions",
@@ -2974,7 +3168,9 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Ghost.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json"
+    ],
     "name": "Ghost",
     "level": 1,
     "ev": "12",
@@ -2983,7 +3179,10 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Ghoul Craver.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json"
+    ],
     "name": "Ghoul Craver",
     "level": 4,
     "ev": "6 for four minions",
@@ -2992,7 +3191,9 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Ghoul.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json"
+    ],
     "name": "Ghoul",
     "level": 1,
     "ev": "3",
@@ -3001,7 +3202,12 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Giant Shambler Zombie.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 10 Malice Features.json"
+    ],
     "name": "Giant Shambler Zombie",
     "level": 10,
     "ev": "12 for four minions",
@@ -3010,7 +3216,10 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Giant Zombie.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json"
+    ],
     "name": "Giant Zombie",
     "level": 4,
     "ev": "24",
@@ -3019,7 +3228,11 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Haunt.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json"
+    ],
     "name": "Haunt",
     "level": 7,
     "ev": "9",
@@ -3028,7 +3241,10 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Hollowbone Launcher.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json"
+    ],
     "name": "Hollowbone Launcher",
     "level": 4,
     "ev": "6 for four minions",
@@ -3037,7 +3253,11 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Koptourok.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json"
+    ],
     "name": "Koptourok",
     "level": 7,
     "ev": "9",
@@ -3046,7 +3266,12 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Lithgekh.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 10 Malice Features.json"
+    ],
     "name": "Lithgekh",
     "level": 10,
     "ev": "12",
@@ -3055,7 +3280,10 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Mummy Lord.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json"
+    ],
     "name": "Mummy Lord",
     "level": 4,
     "ev": "24",
@@ -3064,7 +3292,11 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Mummy Rotwrap.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json"
+    ],
     "name": "Mummy Rotwrap",
     "level": 7,
     "ev": "9 for four minions",
@@ -3073,7 +3305,10 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Mummy.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json"
+    ],
     "name": "Mummy",
     "level": 4,
     "ev": "6",
@@ -3082,7 +3317,9 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Rotting Zombie.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json"
+    ],
     "name": "Rotting Zombie",
     "level": 1,
     "ev": "3 for four minions",
@@ -3091,7 +3328,9 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Shade.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json"
+    ],
     "name": "Shade",
     "level": 1,
     "ev": "3 for four minions",
@@ -3100,7 +3339,12 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Skeleton Knight.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 10 Malice Features.json"
+    ],
     "name": "Skeleton Knight",
     "level": 10,
     "ev": "12 for four minions",
@@ -3109,7 +3353,9 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Skeleton.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json"
+    ],
     "name": "Skeleton",
     "level": 1,
     "ev": "3",
@@ -3118,7 +3364,9 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Soulwight.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json"
+    ],
     "name": "Soulwight",
     "level": 1,
     "ev": "3",
@@ -3127,7 +3375,9 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Specter.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json"
+    ],
     "name": "Specter",
     "level": 1,
     "ev": "3",
@@ -3136,7 +3386,9 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Umbral Stalker.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json"
+    ],
     "name": "Umbral Stalker",
     "level": 1,
     "ev": "3",
@@ -3145,7 +3397,11 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Vampire Lord.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json"
+    ],
     "name": "Vampire Lord",
     "level": 7,
     "ev": "36",
@@ -3154,7 +3410,10 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Vampire Spawn.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json"
+    ],
     "name": "Vampire Spawn",
     "level": 4,
     "ev": "6",
@@ -3163,7 +3422,11 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Vampire.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json"
+    ],
     "name": "Vampire",
     "level": 7,
     "ev": "9",
@@ -3172,7 +3435,11 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Waxen.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json"
+    ],
     "name": "Waxen",
     "level": 7,
     "ev": "9",
@@ -3181,7 +3448,12 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Wraith Skulker.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 7 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 10 Malice Features.json"
+    ],
     "name": "Wraith Skulker",
     "level": 10,
     "ev": "12 for four minions",
@@ -3190,7 +3462,10 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Wraith.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json",
+      "Monsters/Undead/Features/Undead Malice Level 4 Malice Features.json"
+    ],
     "name": "Wraith",
     "level": 4,
     "ev": "6",
@@ -3199,7 +3474,9 @@
   },
   {
     "statblock": "Monsters/Undead/Statblocks/Zombie.json",
-    "features": ["Monsters/Undead/Features/Undead Malice.json"],
+    "features": [
+      "Monsters/Undead/Features/Undead Malice Level 1 Malice Features.json"
+    ],
     "name": "Zombie",
     "level": 1,
     "ev": "3",
@@ -3330,7 +3607,12 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/Castellan Hoplon.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 10 Malice Features.json"
+    ],
     "name": "Castellan Hoplon",
     "level": 10,
     "ev": "48",
@@ -3339,7 +3621,12 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/Iron Champion Doru.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 10 Malice Features.json"
+    ],
     "name": "Iron Champion Doru",
     "level": 10,
     "ev": "48",
@@ -3348,7 +3635,12 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/Logostician Vesper.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 10 Malice Features.json"
+    ],
     "name": "Logostician Vesper",
     "level": 10,
     "ev": "48",
@@ -3357,7 +3649,12 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/Soulbinder Psyche.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 10 Malice Features.json"
+    ],
     "name": "Soulbinder Psyche",
     "level": 10,
     "ev": "48",
@@ -3366,7 +3663,12 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/Strategos Alkestis.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 10 Malice Features.json"
+    ],
     "name": "Strategos Alkestis",
     "level": 10,
     "ev": "48",
@@ -3375,7 +3677,11 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Aerocite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json"
+    ],
     "name": "War Dog Aerocite",
     "level": 8,
     "ev": "10",
@@ -3384,7 +3690,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Amalgamite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Amalgamite",
     "level": 2,
     "ev": "4",
@@ -3393,7 +3701,10 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Arachnite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json"
+    ],
     "name": "War Dog Arachnite",
     "level": 6,
     "ev": "8",
@@ -3402,7 +3713,11 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Ballistite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json"
+    ],
     "name": "War Dog Ballistite",
     "level": 8,
     "ev": "10",
@@ -3411,7 +3726,11 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Blackcap.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json"
+    ],
     "name": "War Dog Blackcap",
     "level": 7,
     "ev": "9",
@@ -3420,7 +3739,12 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Blood Jumper.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 10 Malice Features.json"
+    ],
     "name": "War Dog Blood Jumper",
     "level": 10,
     "ev": "12 for four minions",
@@ -3429,7 +3753,11 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Breaker.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json"
+    ],
     "name": "War Dog Breaker",
     "level": 7,
     "ev": "36",
@@ -3438,7 +3766,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Commando.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Commando",
     "level": 1,
     "ev": "3 for four minions",
@@ -3447,7 +3777,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Conscript.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Conscript",
     "level": 1,
     "ev": "3 for four minions",
@@ -3456,7 +3788,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Crucibite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Crucibite",
     "level": 1,
     "ev": "3",
@@ -3465,7 +3799,10 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Doomthief.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json"
+    ],
     "name": "War Dog Doomthief",
     "level": 5,
     "ev": "7",
@@ -3474,7 +3811,11 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Draconite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json"
+    ],
     "name": "War Dog Draconite",
     "level": 7,
     "ev": "9 for four minions",
@@ -3483,7 +3824,10 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Equivite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json"
+    ],
     "name": "War Dog Equivite",
     "level": 4,
     "ev": "6",
@@ -3492,7 +3836,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Eviscerite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Eviscerite",
     "level": 1,
     "ev": "3",
@@ -3501,7 +3847,11 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Firestarter.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json"
+    ],
     "name": "War Dog Firestarter",
     "level": 8,
     "ev": "10",
@@ -3510,7 +3860,11 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Geomancer.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json"
+    ],
     "name": "War Dog Geomancer",
     "level": 8,
     "ev": "10",
@@ -3519,7 +3873,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Ground Commander.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Ground Commander",
     "level": 3,
     "ev": "20",
@@ -3528,7 +3884,12 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Hunter Killer.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 10 Malice Features.json"
+    ],
     "name": "War Dog Hunter-Killer",
     "level": 10,
     "ev": "12 for four minions",
@@ -3537,7 +3898,10 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Hypokrite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json"
+    ],
     "name": "War Dog Hypokrite",
     "level": 4,
     "ev": "6",
@@ -3546,7 +3910,11 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Iron Priest.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json"
+    ],
     "name": "War Dog Iron Priest",
     "level": 8,
     "ev": "10",
@@ -3555,7 +3923,10 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Mischievite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json"
+    ],
     "name": "War Dog Mischievite",
     "level": 5,
     "ev": "7",
@@ -3564,7 +3935,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Neuronite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Neuronite",
     "level": 1,
     "ev": "3",
@@ -3573,7 +3946,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Pestilite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Pestilite",
     "level": 3,
     "ev": "5",
@@ -3582,7 +3957,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Phosphorite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Phosphorite",
     "level": 2,
     "ev": "4",
@@ -3591,7 +3968,11 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Prismite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json"
+    ],
     "name": "War Dog Prismite",
     "level": 8,
     "ev": "10",
@@ -3600,7 +3981,11 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Saboteur.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json"
+    ],
     "name": "War Dog Saboteur",
     "level": 7,
     "ev": "9 for four minions",
@@ -3609,7 +3994,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Sharpshooter.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Sharpshooter",
     "level": 1,
     "ev": "3 for four minions",
@@ -3618,7 +4005,11 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Shriketroop.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json"
+    ],
     "name": "War Dog Shriketroop",
     "level": 7,
     "ev": "9 for four minions",
@@ -3627,7 +4018,12 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Socialite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 10 Malice Features.json"
+    ],
     "name": "War Dog Socialite",
     "level": 10,
     "ev": "12 for four minions",
@@ -3636,7 +4032,10 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Sparkslinger.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json"
+    ],
     "name": "War Dog Sparkslinger",
     "level": 4,
     "ev": "6 for four minions",
@@ -3645,7 +4044,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Subcommander.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Subcommander",
     "level": 2,
     "ev": "4",
@@ -3654,7 +4055,10 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Sweeper.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json"
+    ],
     "name": "War Dog Sweeper",
     "level": 4,
     "ev": "6 for four minions",
@@ -3663,7 +4067,11 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Taxiarch.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 7 Malice Features.json"
+    ],
     "name": "War Dog Taxiarch",
     "level": 9,
     "ev": "44",
@@ -3672,7 +4080,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Teletalite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Teletalite",
     "level": 1,
     "ev": "3",
@@ -3681,7 +4091,9 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Tetherite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json"
+    ],
     "name": "War Dog Tetherite",
     "level": 1,
     "ev": "3 for four minions",
@@ -3690,7 +4102,10 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Tetrarch.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json"
+    ],
     "name": "War Dog Tetrarch",
     "level": 6,
     "ev": "32",
@@ -3699,7 +4114,10 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Thanatite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json"
+    ],
     "name": "War Dog Thanatite",
     "level": 6,
     "ev": "8",
@@ -3708,7 +4126,10 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog Tormentite.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json"
+    ],
     "name": "War Dog Tormentite",
     "level": 5,
     "ev": "7",
@@ -3717,7 +4138,10 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog War Doc.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json"
+    ],
     "name": "War Dog War Doc",
     "level": 5,
     "ev": "7",
@@ -3726,7 +4150,10 @@
   },
   {
     "statblock": "Monsters/War Dogs/Statblocks/War Dog War Frog.json",
-    "features": ["Monsters/War Dogs/Features/War Dog Malice.json"],
+    "features": [
+      "Monsters/War Dogs/Features/War Dog Malice Level 1 Malice Features.json",
+      "Monsters/War Dogs/Features/War Dog Malice Level 4 Malice Features.json"
+    ],
     "name": "War Dog War Frog",
     "level": 4,
     "ev": "6 for four minions",
@@ -3744,9 +4171,7 @@
   },
   {
     "statblock": "Monsters/Wyverns/Statblocks/Wyvern Lurker.json",
-    "features": [
-      "Monsters/Wyverns/Features/Wyvern Malice Malice Features.json"
-    ],
+    "features": ["Monsters/Wyverns/Features/Wyvern Malice.json"],
     "name": "Wyvern Lurker",
     "level": 4,
     "ev": "24",
@@ -3755,9 +4180,7 @@
   },
   {
     "statblock": "Monsters/Wyverns/Statblocks/Wyvern Predator.json",
-    "features": [
-      "Monsters/Wyverns/Features/Wyvern Malice Malice Features.json"
-    ],
+    "features": ["Monsters/Wyverns/Features/Wyvern Malice.json"],
     "name": "Wyvern Predator",
     "level": 4,
     "ev": "24",

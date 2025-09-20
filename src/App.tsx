@@ -4,8 +4,10 @@ import monsterIndexRaw from "./monsterIndex.json";
 import SearchView from "./components/SearchView";
 import MonsterView from "./components/MonsterView";
 import fetchTypedData from "./helpers/getTypedData";
-import { drawSteelStatblock } from "./types/statblockZod";
-import { drawSteelMalice } from "./types/maliceZod";
+import {
+  DrawSteelFeatureBlockZod,
+  DrawSteelStatblockZod,
+} from "./types/DrawSteelZod";
 import getUrl from "./helpers/getUrl";
 
 const params = new URLSearchParams(document.location.search);
@@ -31,17 +33,19 @@ function App() {
 
       const statblock = await fetchTypedData(
         statblockUrl,
-        drawSteelStatblock.parse
+        DrawSteelStatblockZod.parse
       );
       const malice = await Promise.all(
-        maliceUrls.map(item => fetchTypedData(item, drawSteelMalice.parse))
+        maliceUrls.map(item =>
+          fetchTypedData(item, DrawSteelFeatureBlockZod.parse)
+        )
       );
 
       console.log({ statblock, malice });
       setActiveMonsterData({
         key: monster.statblock,
         statblock,
-        features: malice,
+        featuresBlocks: malice,
       });
     };
     addMonsterStatblock();

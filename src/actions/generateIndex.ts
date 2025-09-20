@@ -5,7 +5,7 @@ import {
   type IndexBundle,
   type PathBundle,
 } from "../types/bundlesZod";
-import { type DrawSteelStatblock } from "../types/statblockZod";
+import { type DrawSteelStatblock } from "../types/DrawSteelZod";
 import getGitTreeUrl from "../helpers/getGitTreeUrl";
 
 export async function generateIndex() {
@@ -84,6 +84,28 @@ export async function generateIndex() {
           ...indexBundle.features,
           "Monsters/Goblins/Features/Goblin Malice.json",
         ];
+      }
+
+      // Special handling for tiered malice
+      if (
+        pathBundle.statblock.startsWith("Monsters/Demons/Statblocks/") ||
+        pathBundle.statblock.startsWith("Monsters/Undead/Statblocks/") ||
+        pathBundle.statblock.startsWith("Monsters/War Dogs/Statblocks/")
+      ) {
+        const firstNumber = (str: string) => {
+          return parseFloat(str.substring(str.search(/\d/)));
+        };
+        indexBundle.features = [...indexBundle.features]
+          .filter(path => firstNumber(path) <= indexBundle.level)
+          .sort((a, b) => firstNumber(a) - firstNumber(b));
+      }
+
+      // Special handling for rivals
+      if (
+        pathBundle.statblock.startsWith("Monsters/Rivals") &&
+        pathBundle.statblock.includes("/Statblocks/")
+      ) {
+        indexBundle.name = `Level ${indexBundle.level} ${indexBundle.name}`;
       }
 
       // Validate

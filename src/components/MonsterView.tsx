@@ -1,4 +1,4 @@
-import { MaliceBlock } from "../creatureBlockUI/MaliceBlock";
+import { FeatureBlock } from "../creatureBlockUI/FeatureBlock";
 import { StatBlock } from "../creatureBlockUI/StatBlock";
 import { monsterDataBundle } from "../types/bundlesZod";
 
@@ -12,12 +12,12 @@ export default function MonsterView({
 
   return (
     <div className="flex flex-col items-center pb-[60px]">
-      <div className=" p-4  flex flex-col items-center gap-12">
+      <div className=" p-4  flex flex-col items-center gap-4">
         <StatBlock statblock={monsterData.statblock} />
         {/* <LeafIcon className="shrink-0" /> */}
-        {monsterData.features.length > 0 &&
-          monsterData.features.map(item => (
-            <MaliceBlock key={item.name} malice={item} />
+        {monsterData.featuresBlocks.length > 0 &&
+          monsterData.featuresBlocks.map(item => (
+            <FeatureBlock key={item.name} featureBlock={item} />
           ))}
       </div>
       <div className="fixed left-0 bottom-0 w-full p-2 pt-0 bg-zinc-50">

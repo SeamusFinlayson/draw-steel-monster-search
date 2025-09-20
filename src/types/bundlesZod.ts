@@ -1,6 +1,8 @@
 import z from "zod";
-import { drawSteelMalice } from "./maliceZod";
-import { drawSteelStatblock } from "./statblockZod";
+import {
+  DrawSteelFeatureBlockZod,
+  DrawSteelStatblockZod,
+} from "./DrawSteelZod";
 
 export const pathBundle = z.strictObject({
   statblock: z.string(),
@@ -16,8 +18,8 @@ export const indexBundle = z.strictObject({
 });
 export const monsterDataBundle = z.strictObject({
   key: z.string(),
-  statblock: drawSteelStatblock,
-  features: z.array(drawSteelMalice),
+  statblock: DrawSteelStatblockZod,
+  featuresBlocks: z.array(DrawSteelFeatureBlockZod),
 });
 export type IndexBundle = z.infer<typeof indexBundle>;
 export type PathBundle = z.infer<typeof pathBundle>;

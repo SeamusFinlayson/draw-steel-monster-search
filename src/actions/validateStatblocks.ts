@@ -1,6 +1,6 @@
 import getUrl from "../helpers/getUrl";
 import type { PathBundle } from "../types/bundlesZod";
-import { drawSteelStatblock } from "../types/statblockZod";
+import { DrawSteelStatblockZod } from "../types/DrawSteelZod";
 
 export async function validateStatblocks(
   pathBundles: PathBundle[],
@@ -14,7 +14,7 @@ export async function validateStatblocks(
       const json = await response.json();
 
       // Validate
-      const result = drawSteelStatblock.safeParse(json);
+      const result = DrawSteelStatblockZod.safeParse(json);
       if (!result.success) {
         badStatblocks.push({
           file: bundle.statblock,

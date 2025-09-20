@@ -1,7 +1,7 @@
 import type { PathBundle } from "../types/bundlesZod";
-import { drawSteelMalice } from "../types/maliceZod";
 import fetchTypedData from "../helpers/getTypedData";
 import getUrl from "../helpers/getUrl";
+import { DrawSteelFeatureBlockZod } from "../types/DrawSteelZod";
 
 export async function validateMalice(
   pathBundles: PathBundle[],
@@ -19,7 +19,7 @@ export async function validateMalice(
         await Promise.all(
           maliceUrls.map(async url => {
             await fetchTypedData(url, value => {
-              const result = drawSteelMalice.safeParse(value);
+              const result = DrawSteelFeatureBlockZod.safeParse(value);
               if (!result.success) {
                 badStatblocks.push({
                   file: url,

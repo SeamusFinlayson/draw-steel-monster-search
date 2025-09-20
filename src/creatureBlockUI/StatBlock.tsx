@@ -1,6 +1,5 @@
-import type { DrawSteelStatblock } from "../types/statblockZod";
-import { Ability } from "./Ability";
-import { Trait } from "./Trait";
+import type { DrawSteelStatblock } from "../types/DrawSteelZod";
+import { Feature } from "./Feature";
 
 export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
   return (
@@ -79,17 +78,9 @@ export function StatBlock({ statblock }: { statblock: DrawSteelStatblock }) {
       <div className="w-full border-b border-zinc-950 mb-0" />
 
       <div className="mb-0">
-        {statblock.traits?.map(trait => (
-          <div key={trait.name} className="p-2 pl-0 border-b border-zinc-950">
-            <Trait trait={trait} />
-          </div>
-        ))}
-      </div>
-
-      <div>
-        {statblock.abilities?.map(ability => (
-          <div key={ability.name} className="p-2 pl-0 border-b border-zinc-950">
-            <Ability ability={ability} />
+        {statblock.features?.map(feature => (
+          <div key={feature.name} className="p-2 pl-0 border-b border-zinc-950">
+            <Feature feature={feature} />
           </div>
         ))}
       </div>
