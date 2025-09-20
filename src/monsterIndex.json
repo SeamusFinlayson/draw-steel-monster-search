@@ -17,7 +17,7 @@
     "name": "Angulotl Cleaver",
     "level": 1,
     "ev": "3 for 4 minions",
-    "roles": ["Minion Ambusher"],
+    "roles": ["Minion", "Ambusher"],
     "ancestry": ["Angulotl", "Humanoid"]
   },
   {
@@ -26,7 +26,7 @@
     "name": "Angulotl Dart",
     "level": 1,
     "ev": "3 for 4 minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Angulotl", "Humanoid"]
   },
   {
@@ -44,7 +44,7 @@
     "name": "Angulotl Needler",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Artillery"],
+    "roles": ["Horde", "Artillery"],
     "ancestry": ["Angulotl", "Humanoid"]
   },
   {
@@ -53,7 +53,7 @@
     "name": "Angulotl Pollywog",
     "level": 1,
     "ev": "3 for 4 minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Angulotl"]
   },
   {
@@ -62,7 +62,7 @@
     "name": "Angulotl Slink",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Ambusher"],
+    "roles": ["Horde", "Ambusher"],
     "ancestry": ["Angulotl", "Humanoid"]
   },
   {
@@ -71,7 +71,7 @@
     "name": "Angulotl Wave",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Angulotl", "Humanoid"]
   },
   {
@@ -80,7 +80,7 @@
     "name": "Clawfish",
     "level": 1,
     "ev": "3 for 4 minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Angulotl", "Animal"]
   },
   {
@@ -89,7 +89,7 @@
     "name": "Animal Swarm",
     "level": 1,
     "ev": "12",
-    "roles": ["Elite Hexer"],
+    "roles": ["Elite", "Hexer"],
     "ancestry": ["Animal", "Swarm"]
   },
   {
@@ -98,7 +98,7 @@
     "name": "Animal",
     "level": 1,
     "ev": "12",
-    "roles": ["Elite Harrier"],
+    "roles": ["Elite", "Harrier"],
     "ancestry": ["Animal"]
   },
   {
@@ -107,7 +107,7 @@
     "name": "Big Animal A",
     "level": 1,
     "ev": "12",
-    "roles": ["Elite Mount"],
+    "roles": ["Elite", "Mount"],
     "ancestry": ["Animal"]
   },
   {
@@ -116,7 +116,7 @@
     "name": "Big Animal B",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Mount"],
+    "roles": ["Elite", "Mount"],
     "ancestry": ["Animal"]
   },
   {
@@ -125,7 +125,7 @@
     "name": "Predator A",
     "level": 1,
     "ev": "12",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Animal"]
   },
   {
@@ -134,7 +134,7 @@
     "name": "Predator B",
     "level": 3,
     "ev": "16",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Animal"]
   },
   {
@@ -161,7 +161,7 @@
     "name": "Basilisk Tonguesnapper",
     "level": 1,
     "ev": "12",
-    "roles": ["Elite Hexer"],
+    "roles": ["Elite", "Hexer"],
     "ancestry": ["Basilisk", "Beast"]
   },
   {
@@ -170,7 +170,7 @@
     "name": "Basilisk",
     "level": 1,
     "ev": "12",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Basilisk", "Beast"]
   },
   {
@@ -191,7 +191,7 @@
     "name": "Bugbear Channeler",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Bugbear", "Fey", "Goblin", "Humanoid"]
   },
   {
@@ -203,7 +203,7 @@
     "name": "Bugbear Commander",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Support"],
+    "roles": ["Elite", "Support"],
     "ancestry": ["Bugbear", "Fey", "Goblin", "Humanoid"]
   },
   {
@@ -215,7 +215,7 @@
     "name": "Bugbear Knightmare",
     "level": 8,
     "ev": "10 for four minions",
-    "roles": ["Minion Hexer"],
+    "roles": ["Minion", "Hexer"],
     "ancestry": ["Bugbear", "Fey", "Goblin", "Humanoid"]
   },
   {
@@ -227,7 +227,7 @@
     "name": "Bugbear Mob",
     "level": 5,
     "ev": "7 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Bugbear", "Fey", "Goblin", "Humanoid"]
   },
   {
@@ -239,7 +239,7 @@
     "name": "Bugbear Roughneck",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Bugbear", "Fey", "Goblin", "Humanoid"]
   },
   {
@@ -251,7 +251,7 @@
     "name": "Bugbear Snare",
     "level": 5,
     "ev": "7 for four minions",
-    "roles": ["Minion Ambusher"],
+    "roles": ["Minion", "Ambusher"],
     "ancestry": ["Bugbear", "Fey", "Goblin", "Humanoid"]
   },
   {
@@ -263,7 +263,7 @@
     "name": "Bugbear Sneak",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Ambusher"],
+    "roles": ["Elite", "Ambusher"],
     "ancestry": ["Bugbear", "Fey", "Goblin", "Humanoid"]
   },
   {
@@ -309,7 +309,7 @@
     "name": "Bale Eye",
     "level": 5,
     "ev": "7",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -320,7 +320,7 @@
     "name": "Bendrak",
     "level": 2,
     "ev": "4",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -333,7 +333,7 @@
     "name": "Blight Phage",
     "level": 7,
     "ev": "9",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -346,7 +346,7 @@
     "name": "Chimeron",
     "level": 9,
     "ev": "9",
-    "roles": ["Horde Brute"],
+    "roles": ["Horde", "Brute"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -368,7 +368,7 @@
     "name": "Ensnarer",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -380,7 +380,7 @@
     "name": "Fangling",
     "level": 4,
     "ev": "6",
-    "roles": ["Horde Harrier"],
+    "roles": ["Horde", "Harrier"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -392,7 +392,7 @@
     "name": "Fiktin",
     "level": 5,
     "ev": "7",
-    "roles": ["Horde Ambusher"],
+    "roles": ["Horde", "Ambusher"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -403,7 +403,7 @@
     "name": "Frenzied",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -415,7 +415,7 @@
     "name": "Grulqin",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -427,7 +427,7 @@
     "name": "Gunge",
     "level": 4,
     "ev": "6",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -441,7 +441,7 @@
     "name": "Izyak",
     "level": 10,
     "ev": "12",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -464,7 +464,7 @@
     "name": "Muceron",
     "level": 3,
     "ev": "5",
-    "roles": ["Horde Brute"],
+    "roles": ["Horde", "Brute"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -478,7 +478,7 @@
     "name": "Optacus",
     "level": 10,
     "ev": "12 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -490,7 +490,7 @@
     "name": "Orliq",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -501,7 +501,7 @@
     "name": "Pitling",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -512,7 +512,7 @@
     "name": "Remasch",
     "level": 2,
     "ev": "4",
-    "roles": ["Horde Ambusher"],
+    "roles": ["Horde", "Ambusher"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -523,7 +523,7 @@
     "name": "Ruinant",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Harrier"],
+    "roles": ["Horde", "Harrier"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -536,7 +536,7 @@
     "name": "Soulraker Handmaiden",
     "level": 8,
     "ev": "10",
-    "roles": ["Horde Ambusher"],
+    "roles": ["Horde", "Ambusher"],
     "ancestry": ["Abyssal", "Demon", "Soulraker"]
   },
   {
@@ -562,7 +562,7 @@
     "name": "Soulraker Praetorian",
     "level": 7,
     "ev": "9",
-    "roles": ["Horde Harrier"],
+    "roles": ["Horde", "Harrier"],
     "ancestry": ["Abyssal", "Demon", "Soulraker"]
   },
   {
@@ -575,7 +575,7 @@
     "name": "Soulraker Scout",
     "level": 7,
     "ev": "9 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Abyssal", "Demon", "Soulraker"]
   },
   {
@@ -588,7 +588,7 @@
     "name": "Soulraker Soldier",
     "level": 7,
     "ev": "9 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Abyssal", "Demon", "Soulraker"]
   },
   {
@@ -601,7 +601,7 @@
     "name": "Soulraker Stinger",
     "level": 7,
     "ev": "9 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Abyssal", "Demon", "Soulraker"]
   },
   {
@@ -614,7 +614,7 @@
     "name": "Styrich",
     "level": 8,
     "ev": "10",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -625,7 +625,7 @@
     "name": "Torlas",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -637,7 +637,7 @@
     "name": "Tormenauk",
     "level": 6,
     "ev": "8",
-    "roles": ["Horde Brute"],
+    "roles": ["Horde", "Brute"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -651,7 +651,7 @@
     "name": "Tyburaki",
     "level": 10,
     "ev": "12 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -665,7 +665,7 @@
     "name": "Unguloid",
     "level": 10,
     "ev": "12 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -679,7 +679,7 @@
     "name": "Vicisitator",
     "level": 10,
     "ev": "12",
-    "roles": ["Horde Harrier"],
+    "roles": ["Horde", "Harrier"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -691,7 +691,7 @@
     "name": "Wobalas",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Abyssal", "Demon"]
   },
   {
@@ -700,7 +700,7 @@
     "name": "Devil Adjudicator",
     "level": 6,
     "ev": "32",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Devil", "Infernal"]
   },
   {
@@ -709,7 +709,7 @@
     "name": "Devil Clerk",
     "level": 5,
     "ev": "7 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Devil", "Infernal"]
   },
   {
@@ -727,7 +727,7 @@
     "name": "Devil Jurist",
     "level": 5,
     "ev": "28",
-    "roles": ["Elite Artillery"],
+    "roles": ["Elite", "Artillery"],
     "ancestry": ["Devil", "Infernal"]
   },
   {
@@ -736,7 +736,7 @@
     "name": "Devil Legate",
     "level": 5,
     "ev": "28",
-    "roles": ["Elite Defender"],
+    "roles": ["Elite", "Defender"],
     "ancestry": ["Devil", "Infernal"]
   },
   {
@@ -745,7 +745,7 @@
     "name": "Devil Magistrate",
     "level": 6,
     "ev": "32",
-    "roles": ["Elite Harrier"],
+    "roles": ["Elite", "Harrier"],
     "ancestry": ["Devil", "Infernal"]
   },
   {
@@ -754,7 +754,7 @@
     "name": "Devil Notary",
     "level": 5,
     "ev": "7 for four minions",
-    "roles": ["Minion Hexer"],
+    "roles": ["Minion", "Hexer"],
     "ancestry": ["Devil", "Infernal"]
   },
   {
@@ -763,7 +763,7 @@
     "name": "Devil Scrivener",
     "level": 5,
     "ev": "7 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Devil", "Infernal"]
   },
   {
@@ -772,7 +772,7 @@
     "name": "Aeolyxria the Uncanny",
     "level": 6,
     "ev": "32",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Draconian", "Dragon", "Humanoid"]
   },
   {
@@ -790,7 +790,7 @@
     "name": "Locratix the Morningstar",
     "level": 6,
     "ev": "32",
-    "roles": ["Elite Harrier"],
+    "roles": ["Elite", "Harrier"],
     "ancestry": ["Draconian", "Dragon", "Humanoid"]
   },
   {
@@ -799,7 +799,7 @@
     "name": "Lydixavus the Deadeye",
     "level": 6,
     "ev": "32",
-    "roles": ["Elite Artillery"],
+    "roles": ["Elite", "Artillery"],
     "ancestry": ["Draconian", "Dragon", "Humanoid"]
   },
   {
@@ -808,7 +808,7 @@
     "name": "Myxovidan the Sintaker",
     "level": 6,
     "ev": "32",
-    "roles": ["Elite Hexer"],
+    "roles": ["Elite", "Hexer"],
     "ancestry": ["Draconian", "Dragon", "Humanoid"]
   },
   {
@@ -817,7 +817,7 @@
     "name": "Phrrygalax the Subduer",
     "level": 6,
     "ev": "32",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Draconian", "Dragon", "Humanoid"]
   },
   {
@@ -871,7 +871,7 @@
     "name": "Dwarf Axethrower",
     "level": 1,
     "ev": "3 for 4 minions",
-    "roles": ["Minion Defender"],
+    "roles": ["Minion", "Defender"],
     "ancestry": ["Dwarf", "Humanoid"]
   },
   {
@@ -880,7 +880,7 @@
     "name": "Dwarf Catchpole",
     "level": 1,
     "ev": "3 for 4 minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Dwarf", "Humanoid"]
   },
   {
@@ -889,7 +889,7 @@
     "name": "Dwarf Driver",
     "level": 1,
     "ev": "3 for 4 minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Dwarf", "Humanoid"]
   },
   {
@@ -898,7 +898,7 @@
     "name": "Dwarf Gunner",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Artillery"],
+    "roles": ["Platoon", "Artillery"],
     "ancestry": ["Dwarf", "Humanoid"]
   },
   {
@@ -907,7 +907,7 @@
     "name": "Dwarf Hunter",
     "level": 1,
     "ev": "3 for 4 minions",
-    "roles": ["Minion Support"],
+    "roles": ["Minion", "Support"],
     "ancestry": ["Dwarf", "Humanoid"]
   },
   {
@@ -916,7 +916,7 @@
     "name": "Dwarf Launcher",
     "level": 1,
     "ev": "8",
-    "roles": ["Platoon Hexer"],
+    "roles": ["Platoon", "Hexer"],
     "ancestry": ["Dwarf", "Humanoid"]
   },
   {
@@ -934,7 +934,7 @@
     "name": "Dwarf Reel Winch",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Support"],
+    "roles": ["Platoon", "Support"],
     "ancestry": ["Dwarf", "Humanoid"]
   },
   {
@@ -943,7 +943,7 @@
     "name": "Dwarf Shieldwall",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Defender"],
+    "roles": ["Platoon", "Defender"],
     "ancestry": ["Dwarf", "Humanoid"]
   },
   {
@@ -952,7 +952,7 @@
     "name": "Dwarf Stone Whisperer",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Controller"],
+    "roles": ["Platoon", "Controller"],
     "ancestry": ["Dwarf", "Humanoid"]
   },
   {
@@ -961,7 +961,7 @@
     "name": "Dwarf Trapper",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Harrier"],
+    "roles": ["Platoon", "Harrier"],
     "ancestry": ["Dwarf", "Humanoid"]
   },
   {
@@ -970,7 +970,7 @@
     "name": "Dwarf Warden",
     "level": 2,
     "ev": "8",
-    "roles": ["Platoon Brute"],
+    "roles": ["Platoon", "Brute"],
     "ancestry": ["Dwarf", "Humanoid"]
   },
   {
@@ -979,7 +979,7 @@
     "name": "Servitor War Walker",
     "level": 1,
     "ev": "12",
-    "roles": ["Elite Mount"],
+    "roles": ["Elite", "Mount"],
     "ancestry": ["Dwarf", "Humanoid"]
   },
   {
@@ -988,7 +988,7 @@
     "name": "Crux of Fire",
     "level": 3,
     "ev": "20",
-    "roles": ["Elite Artillery"],
+    "roles": ["Elite", "Artillery"],
     "ancestry": ["Elemental"]
   },
   {
@@ -997,7 +997,7 @@
     "name": "Essence of Storms",
     "level": 3,
     "ev": "20",
-    "roles": ["Elite Harrier"],
+    "roles": ["Elite", "Harrier"],
     "ancestry": ["Elemental"]
   },
   {
@@ -1006,7 +1006,7 @@
     "name": "Essence of Tides",
     "level": 3,
     "ev": "20",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Elemental"]
   },
   {
@@ -1015,7 +1015,7 @@
     "name": "Field of Growth",
     "level": 3,
     "ev": "28",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Elemental"]
   },
   {
@@ -1024,7 +1024,7 @@
     "name": "Force of Earth",
     "level": 3,
     "ev": "20",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Elemental"]
   },
   {
@@ -1033,7 +1033,7 @@
     "name": "Brambleguard",
     "level": 2,
     "ev": "8",
-    "roles": ["Platoon Defender"],
+    "roles": ["Platoon", "Defender"],
     "ancestry": ["Elemental", "High Elf"]
   },
   {
@@ -1042,7 +1042,7 @@
     "name": "Ceramic Horse",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Mount"],
+    "roles": ["Platoon", "Mount"],
     "ancestry": ["Elemental", "High Elf"]
   },
   {
@@ -1051,7 +1051,7 @@
     "name": "Elemental Mote",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Hexer"],
+    "roles": ["Minion", "Hexer"],
     "ancestry": ["Elemental", "High Elf", "Soulless"]
   },
   {
@@ -1060,7 +1060,7 @@
     "name": "High Elf Bloodletter",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Ambusher"],
+    "roles": ["Platoon", "Ambusher"],
     "ancestry": ["Fey", "High Elf", "Humanoid"]
   },
   {
@@ -1069,7 +1069,7 @@
     "name": "High Elf Dawn Mage",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Controller"],
+    "roles": ["Minion", "Controller"],
     "ancestry": ["Fey", "High Elf", "Humanoid"]
   },
   {
@@ -1078,7 +1078,7 @@
     "name": "High Elf Deathtouch",
     "level": 2,
     "ev": "8",
-    "roles": ["Platoon Artillery"],
+    "roles": ["Platoon", "Artillery"],
     "ancestry": ["Fey", "High Elf", "Humanoid"]
   },
   {
@@ -1087,7 +1087,7 @@
     "name": "High Elf Orbweaver",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Hexer"],
+    "roles": ["Platoon", "Hexer"],
     "ancestry": ["Fey", "High Elf", "Humanoid"]
   },
   {
@@ -1105,7 +1105,7 @@
     "name": "High Elf Palinode",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Support"],
+    "roles": ["Platoon", "Support"],
     "ancestry": ["Fey", "High Elf", "Humanoid"]
   },
   {
@@ -1114,7 +1114,7 @@
     "name": "High Elf Quiver",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Fey", "High Elf", "Humanoid"]
   },
   {
@@ -1123,7 +1123,7 @@
     "name": "High Elf Wyrd",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Controller"],
+    "roles": ["Platoon", "Controller"],
     "ancestry": ["Fey", "High Elf", "Humanoid"]
   },
   {
@@ -1132,7 +1132,7 @@
     "name": "High Elf Zephyr",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Harrier"],
+    "roles": ["Platoon", "Harrier"],
     "ancestry": ["Fey", "High Elf", "Humanoid"]
   },
   {
@@ -1141,7 +1141,7 @@
     "name": "Soot Crow",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Elemental", "High Elf"]
   },
   {
@@ -1150,7 +1150,7 @@
     "name": "Brush Stalker",
     "level": 4,
     "ev": "12",
-    "roles": ["Platoon Mount"],
+    "roles": ["Platoon", "Mount"],
     "ancestry": ["Animal", "Fey", "Shadow Elf"]
   },
   {
@@ -1159,7 +1159,7 @@
     "name": "Shadow Elf Assassin",
     "level": 6,
     "ev": "16",
-    "roles": ["Platoon Artillery"],
+    "roles": ["Platoon", "Artillery"],
     "ancestry": ["Fey", "Humanoid", "Shadow Elf"]
   },
   {
@@ -1168,7 +1168,7 @@
     "name": "Shadow Elf Cloak",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Fey", "Humanoid", "Shadow Elf"]
   },
   {
@@ -1177,7 +1177,7 @@
     "name": "Shadow Elf Dusk Mage",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Hexer"],
+    "roles": ["Minion", "Hexer"],
     "ancestry": ["Fey", "Humanoid", "Shadow Elf"]
   },
   {
@@ -1186,7 +1186,7 @@
     "name": "Shadow Elf Duskcaller",
     "level": 5,
     "ev": "14",
-    "roles": ["Platoon Controller"],
+    "roles": ["Platoon", "Controller"],
     "ancestry": ["Fey", "Humanoid", "Shadow Elf"]
   },
   {
@@ -1204,7 +1204,7 @@
     "name": "Shadow Elf Knightfell",
     "level": 4,
     "ev": "12",
-    "roles": ["Platoon Defender"],
+    "roles": ["Platoon", "Defender"],
     "ancestry": ["Fey", "Humanoid", "Shadow Elf"]
   },
   {
@@ -1213,7 +1213,7 @@
     "name": "Shadow Elf Luminator",
     "level": 4,
     "ev": "12",
-    "roles": ["Platoon Support"],
+    "roles": ["Platoon", "Support"],
     "ancestry": ["Fey", "Humanoid", "Shadow Elf"]
   },
   {
@@ -1222,7 +1222,7 @@
     "name": "Shadow Elf Moondancer",
     "level": 5,
     "ev": "14",
-    "roles": ["Platoon Harrier"],
+    "roles": ["Platoon", "Harrier"],
     "ancestry": ["Fey", "Humanoid", "Shadow Elf"]
   },
   {
@@ -1231,7 +1231,7 @@
     "name": "Shadow Elf Mournblade",
     "level": 6,
     "ev": "16",
-    "roles": ["Platoon Ambusher"],
+    "roles": ["Platoon", "Ambusher"],
     "ancestry": ["Fey", "Humanoid", "Shadow Elf"]
   },
   {
@@ -1240,7 +1240,7 @@
     "name": "Shadow Elf Nightstrike",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Ambusher"],
+    "roles": ["Minion", "Ambusher"],
     "ancestry": ["Fey", "Humanoid", "Shadow Elf"]
   },
   {
@@ -1249,7 +1249,7 @@
     "name": "Shadow Elf Noctis Mage",
     "level": 6,
     "ev": "16",
-    "roles": ["Platoon Hexer"],
+    "roles": ["Platoon", "Hexer"],
     "ancestry": ["Fey", "Humanoid", "Shadow Elf"]
   },
   {
@@ -1258,7 +1258,7 @@
     "name": "Shadow Elf Panther",
     "level": 4,
     "ev": "12",
-    "roles": ["Platoon Brute"],
+    "roles": ["Platoon", "Brute"],
     "ancestry": ["Fey", "Humanoid", "Shadow Elf"]
   },
   {
@@ -1267,7 +1267,7 @@
     "name": "Shadow Elf Sniper",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Fey", "Humanoid", "Shadow Elf"]
   },
   {
@@ -1276,7 +1276,7 @@
     "name": "Wode Elf Chirurgeon",
     "level": 2,
     "ev": "8",
-    "roles": ["Platoon Harrier"],
+    "roles": ["Platoon", "Harrier"],
     "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
@@ -1285,7 +1285,7 @@
     "name": "Wode Elf Druid",
     "level": 2,
     "ev": "8",
-    "roles": ["Platoon Controller"],
+    "roles": ["Platoon", "Controller"],
     "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
@@ -1294,7 +1294,7 @@
     "name": "Wode Elf Green Seer",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Hexer"],
+    "roles": ["Platoon", "Hexer"],
     "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
@@ -1303,7 +1303,7 @@
     "name": "Wode Elf Greenskeeper",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Defender"],
+    "roles": ["Platoon", "Defender"],
     "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
@@ -1312,7 +1312,7 @@
     "name": "Wode Elf Guerrilla",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Ambusher"],
+    "roles": ["Platoon", "Ambusher"],
     "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
@@ -1321,7 +1321,7 @@
     "name": "Wode Elf Gweiadur",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Artillery"],
+    "roles": ["Platoon", "Artillery"],
     "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
@@ -1330,7 +1330,7 @@
     "name": "Wode Elf Lookout",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Support"],
+    "roles": ["Minion", "Support"],
     "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
@@ -1339,7 +1339,7 @@
     "name": "Wode Elf Runner",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
@@ -1348,7 +1348,7 @@
     "name": "Wode Elf Scout",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Ambusher"],
+    "roles": ["Minion", "Ambusher"],
     "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
@@ -1357,7 +1357,7 @@
     "name": "Wode Elf Sentry",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Support"],
+    "roles": ["Platoon", "Support"],
     "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
@@ -1375,7 +1375,7 @@
     "name": "Wode Elf Yeoman",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Fey", "Humanoid", "Wode Elf"]
   },
   {
@@ -1384,7 +1384,7 @@
     "name": "Wodenelg",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Mount"],
+    "roles": ["Platoon", "Mount"],
     "ancestry": ["Plant", "Wode Elf"]
   },
   {
@@ -1402,7 +1402,7 @@
     "name": "Basalt Stone Giant",
     "level": 8,
     "ev": "40",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Giant", "Stone Giant"]
   },
   {
@@ -1420,7 +1420,7 @@
     "name": "Fire Giant Fireballer",
     "level": 9,
     "ev": "11 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Fire Giant", "Giant"]
   },
   {
@@ -1429,7 +1429,7 @@
     "name": "Fire Giant Lightbearer",
     "level": 9,
     "ev": "44",
-    "roles": ["Elite Support"],
+    "roles": ["Elite", "Support"],
     "ancestry": ["Fire Giant", "Giant"]
   },
   {
@@ -1438,7 +1438,7 @@
     "name": "Fire Giant Red Fist",
     "level": 9,
     "ev": "44",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Fire Giant", "Giant"]
   },
   {
@@ -1447,7 +1447,7 @@
     "name": "Frost Giant Snowblaster",
     "level": 8,
     "ev": "10 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Frost Giant", "Giant"]
   },
   {
@@ -1456,7 +1456,7 @@
     "name": "Frost Giant Storm Hurler",
     "level": 8,
     "ev": "40",
-    "roles": ["Elite Artillery"],
+    "roles": ["Elite", "Artillery"],
     "ancestry": ["Frost Giant", "Giant"]
   },
   {
@@ -1465,7 +1465,7 @@
     "name": "Frost Giant Wind Sprinter",
     "level": 8,
     "ev": "40",
-    "roles": ["Elite Harrier"],
+    "roles": ["Elite", "Harrier"],
     "ancestry": ["Frost Giant", "Giant"]
   },
   {
@@ -1474,7 +1474,7 @@
     "name": "Granite Stone Giant",
     "level": 8,
     "ev": "40",
-    "roles": ["Elite Defender"],
+    "roles": ["Elite", "Defender"],
     "ancestry": ["Giant", "Stone Giant"]
   },
   {
@@ -1483,7 +1483,7 @@
     "name": "Hill Giant Clobberer",
     "level": 7,
     "ev": "36",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Giant", "Hill Giant"]
   },
   {
@@ -1492,7 +1492,7 @@
     "name": "Hill Giant Mosstooth",
     "level": 7,
     "ev": "9 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Giant", "Hill Giant"]
   },
   {
@@ -1501,7 +1501,7 @@
     "name": "Marble Stone Giant",
     "level": 8,
     "ev": "40",
-    "roles": ["Elite Hexer"],
+    "roles": ["Elite", "Hexer"],
     "ancestry": ["Giant", "Stone Giant"]
   },
   {
@@ -1510,7 +1510,7 @@
     "name": "Sand Stone Giant",
     "level": 8,
     "ev": "10 for four minions",
-    "roles": ["Minion Controller"],
+    "roles": ["Minion", "Controller"],
     "ancestry": ["Giant", "Stone Giant"]
   },
   {
@@ -1519,7 +1519,7 @@
     "name": "Abyssal Hyena",
     "level": 2,
     "ev": "4 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Abyssal", "Animal", "Gnoll"]
   },
   {
@@ -1528,7 +1528,7 @@
     "name": "Gnoll Abyssal Archer",
     "level": 2,
     "ev": "4",
-    "roles": ["Horde Artillery"],
+    "roles": ["Horde", "Artillery"],
     "ancestry": ["Abyssal", "Gnoll"]
   },
   {
@@ -1537,7 +1537,7 @@
     "name": "Gnoll Abyssal Summoner",
     "level": 2,
     "ev": "4",
-    "roles": ["Horde Support"],
+    "roles": ["Horde", "Support"],
     "ancestry": ["Abyssal", "Gnoll"]
   },
   {
@@ -1546,7 +1546,7 @@
     "name": "Gnoll Bonesplitter",
     "level": 2,
     "ev": "4",
-    "roles": ["Horde Brute"],
+    "roles": ["Horde", "Brute"],
     "ancestry": ["Abyssal", "Gnoll"]
   },
   {
@@ -1555,7 +1555,7 @@
     "name": "Gnoll Cackler",
     "level": 2,
     "ev": "4",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Abyssal", "Gnoll"]
   },
   {
@@ -1573,7 +1573,7 @@
     "name": "Gnoll Chainflail",
     "level": 2,
     "ev": "4 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Abyssal", "Gnoll"]
   },
   {
@@ -1582,7 +1582,7 @@
     "name": "Gnoll Mage Mauler",
     "level": 2,
     "ev": "4 for four minions",
-    "roles": ["Minion Hexer"],
+    "roles": ["Minion", "Hexer"],
     "ancestry": ["Abyssal", "Gnoll"]
   },
   {
@@ -1591,7 +1591,7 @@
     "name": "Gnoll Marauder",
     "level": 2,
     "ev": "4",
-    "roles": ["Horde Harrier"],
+    "roles": ["Horde", "Harrier"],
     "ancestry": ["Abyssal", "Gnoll"]
   },
   {
@@ -1600,7 +1600,7 @@
     "name": "Gnoll Wildling",
     "level": 2,
     "ev": "4 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Abyssal", "Gnoll"]
   },
   {
@@ -1609,7 +1609,7 @@
     "name": "Tusker Demon",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Abyssal", "Demon", "Gnoll"]
   },
   {
@@ -1618,7 +1618,7 @@
     "name": "Goblin Assassin",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Ambusher"],
+    "roles": ["Horde", "Ambusher"],
     "ancestry": ["Goblin", "Humanoid"]
   },
   {
@@ -1627,7 +1627,7 @@
     "name": "Goblin Cursespitter",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Goblin", "Humanoid"]
   },
   {
@@ -1645,7 +1645,7 @@
     "name": "Goblin Runner",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Goblin", "Humanoid"]
   },
   {
@@ -1654,7 +1654,7 @@
     "name": "Goblin Sniper",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Goblin", "Humanoid"]
   },
   {
@@ -1663,7 +1663,7 @@
     "name": "Goblin Spinecleaver",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Goblin", "Humanoid"]
   },
   {
@@ -1672,7 +1672,7 @@
     "name": "Goblin Stinker",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Goblin", "Humanoid"]
   },
   {
@@ -1681,7 +1681,7 @@
     "name": "Goblin Underboss",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Support"],
+    "roles": ["Horde", "Support"],
     "ancestry": ["Goblin", "Humanoid"]
   },
   {
@@ -1690,7 +1690,7 @@
     "name": "Goblin Warrior",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Harrier"],
+    "roles": ["Horde", "Harrier"],
     "ancestry": ["Goblin", "Humanoid"]
   },
   {
@@ -1699,7 +1699,7 @@
     "name": "Skitterling",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Hexer"],
+    "roles": ["Minion", "Hexer"],
     "ancestry": ["Animal", "Goblin"]
   },
   {
@@ -1708,7 +1708,7 @@
     "name": "War Spider",
     "level": 1,
     "ev": "12",
-    "roles": ["Elite Mount"],
+    "roles": ["Elite", "Mount"],
     "ancestry": ["Animal", "Goblin"]
   },
   {
@@ -1717,7 +1717,7 @@
     "name": "Worg",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Mount"],
+    "roles": ["Horde", "Mount"],
     "ancestry": ["Animal", "Goblin"]
   },
   {
@@ -1726,7 +1726,7 @@
     "name": "Griffon",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Mount"],
+    "roles": ["Elite", "Mount"],
     "ancestry": ["Beast", "Griffon"]
   },
   {
@@ -1735,7 +1735,7 @@
     "name": "Striped Condor Griffon",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Beast", "Griffon"]
   },
   {
@@ -1756,7 +1756,7 @@
     "name": "Grilp",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Ambusher"],
+    "roles": ["Minion", "Ambusher"],
     "ancestry": ["Devil", "Hobgoblin", "Infernal"]
   },
   {
@@ -1780,7 +1780,7 @@
     "name": "Hobgoblin Brandbearer",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Hexer"],
+    "roles": ["Minion", "Hexer"],
     "ancestry": ["Goblin", "Hobgoblin", "Humanoid", "Infernal"]
   },
   {
@@ -1792,7 +1792,7 @@
     "name": "Hobgoblin Burning Witch",
     "level": 4,
     "ev": "12",
-    "roles": ["Platoon Controller"],
+    "roles": ["Platoon", "Controller"],
     "ancestry": ["Goblin", "Hobgoblin", "Humanoid", "Infernal"]
   },
   {
@@ -1804,7 +1804,7 @@
     "name": "Hobgoblin Death Captain",
     "level": 4,
     "ev": "12",
-    "roles": ["Platoon Support"],
+    "roles": ["Platoon", "Support"],
     "ancestry": ["Goblin", "Hobgoblin", "Humanoid", "Infernal"]
   },
   {
@@ -1816,7 +1816,7 @@
     "name": "Hobgoblin Firerunner",
     "level": 5,
     "ev": "14",
-    "roles": ["Platoon Harrier"],
+    "roles": ["Platoon", "Harrier"],
     "ancestry": ["Goblin", "Hobgoblin", "Humanoid", "Infernal"]
   },
   {
@@ -1828,7 +1828,7 @@
     "name": "Hobgoblin Grandguard",
     "level": 6,
     "ev": "16",
-    "roles": ["Platoon Defender"],
+    "roles": ["Platoon", "Defender"],
     "ancestry": ["Goblin", "Hobgoblin", "Humanoid", "Infernal"]
   },
   {
@@ -1840,7 +1840,7 @@
     "name": "Hobgoblin Hell Trooper",
     "level": 4,
     "ev": "12",
-    "roles": ["Platoon Brute"],
+    "roles": ["Platoon", "Brute"],
     "ancestry": ["Goblin", "Hobgoblin", "Humanoid", "Infernal"]
   },
   {
@@ -1852,7 +1852,7 @@
     "name": "Hobgoblin Incendiarist",
     "level": 5,
     "ev": "14",
-    "roles": ["Platoon Artillery"],
+    "roles": ["Platoon", "Artillery"],
     "ancestry": ["Goblin", "Hobgoblin", "Humanoid", "Infernal"]
   },
   {
@@ -1864,7 +1864,7 @@
     "name": "Hobgoblin Lancer",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Goblin", "Hobgoblin", "Humanoid", "Infernal"]
   },
   {
@@ -1876,7 +1876,7 @@
     "name": "Hobgoblin Recruit",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Goblin", "Hobgoblin", "Humanoid", "Infernal"]
   },
   {
@@ -1888,7 +1888,7 @@
     "name": "Hobgoblin Redglare",
     "level": 6,
     "ev": "16",
-    "roles": ["Platoon Hexer"],
+    "roles": ["Platoon", "Hexer"],
     "ancestry": ["Goblin", "Hobgoblin", "Humanoid", "Infernal"]
   },
   {
@@ -1900,7 +1900,7 @@
     "name": "Hobgoblin Smokebinder",
     "level": 5,
     "ev": "14",
-    "roles": ["Platoon Ambusher"],
+    "roles": ["Platoon", "Ambusher"],
     "ancestry": ["Goblin", "Hobgoblin", "Humanoid", "Infernal"]
   },
   {
@@ -1912,7 +1912,7 @@
     "name": "Hobgoblin War Mage",
     "level": 5,
     "ev": "28",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Goblin", "Hobgoblin", "Humanoid", "Infernal"]
   },
   {
@@ -1924,7 +1924,7 @@
     "name": "Slaughter Demon",
     "level": 4,
     "ev": "24",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Abyssal", "Demon", "Hobgoblin"]
   },
   {
@@ -1933,7 +1933,7 @@
     "name": "Giant Hawk",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Mount"],
+    "roles": ["Platoon", "Mount"],
     "ancestry": ["Animal", "Human"]
   },
   {
@@ -1942,7 +1942,7 @@
     "name": "Human Apprentice Mage",
     "level": 2,
     "ev": "4 for four minions",
-    "roles": ["Minion Controller"],
+    "roles": ["Minion", "Controller"],
     "ancestry": ["Human", "Humanoid"]
   },
   {
@@ -1951,7 +1951,7 @@
     "name": "Human Archer",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Human", "Humanoid"]
   },
   {
@@ -1978,7 +1978,7 @@
     "name": "Human Brawler",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Brute"],
+    "roles": ["Platoon", "Brute"],
     "ancestry": ["Human", "Humanoid"]
   },
   {
@@ -1987,7 +1987,7 @@
     "name": "Human Death Acolyte",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Hexer"],
+    "roles": ["Minion", "Hexer"],
     "ancestry": ["Human", "Humanoid"]
   },
   {
@@ -1996,7 +1996,7 @@
     "name": "Human Death Cultist",
     "level": 2,
     "ev": "8",
-    "roles": ["Platoon Support"],
+    "roles": ["Platoon", "Support"],
     "ancestry": ["Human", "Humanoid"]
   },
   {
@@ -2005,7 +2005,7 @@
     "name": "Human Guard",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Human", "Humanoid"]
   },
   {
@@ -2014,7 +2014,7 @@
     "name": "Human Knave",
     "level": 2,
     "ev": "8",
-    "roles": ["Platoon Defender"],
+    "roles": ["Platoon", "Defender"],
     "ancestry": ["Human", "Humanoid"]
   },
   {
@@ -2023,7 +2023,7 @@
     "name": "Human Raider",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Human", "Humanoid"]
   },
   {
@@ -2032,7 +2032,7 @@
     "name": "Human Rogue",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Ambusher"],
+    "roles": ["Minion", "Ambusher"],
     "ancestry": ["Human", "Humanoid"]
   },
   {
@@ -2041,7 +2041,7 @@
     "name": "Human Scoundrel",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Ambusher"],
+    "roles": ["Platoon", "Ambusher"],
     "ancestry": ["Human", "Humanoid"]
   },
   {
@@ -2050,7 +2050,7 @@
     "name": "Human Storm Mage",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Controller"],
+    "roles": ["Platoon", "Controller"],
     "ancestry": ["Human", "Humanoid"]
   },
   {
@@ -2059,7 +2059,7 @@
     "name": "Human Trickshot",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Artillery"],
+    "roles": ["Platoon", "Artillery"],
     "ancestry": ["Human", "Humanoid"]
   },
   {
@@ -2079,7 +2079,7 @@
     "name": "Kobold Adeptus",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Artillery"],
+    "roles": ["Horde", "Artillery"],
     "ancestry": ["Humanoid", "Kobold"]
   },
   {
@@ -2088,7 +2088,7 @@
     "name": "Kobold Artifex",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Humanoid", "Kobold"]
   },
   {
@@ -2106,7 +2106,7 @@
     "name": "Kobold Legionary",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Defender"],
+    "roles": ["Horde", "Defender"],
     "ancestry": ["Humanoid", "Kobold"]
   },
   {
@@ -2115,7 +2115,7 @@
     "name": "Kobold Princeps",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Support"],
+    "roles": ["Minion", "Support"],
     "ancestry": ["Humanoid", "Kobold"]
   },
   {
@@ -2124,7 +2124,7 @@
     "name": "Kobold Sagittarion",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Humanoid", "Kobold"]
   },
   {
@@ -2133,7 +2133,7 @@
     "name": "Kobold Signifer",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Support"],
+    "roles": ["Horde", "Support"],
     "ancestry": ["Humanoid", "Kobold"]
   },
   {
@@ -2142,7 +2142,7 @@
     "name": "Kobold Tiro",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Defender"],
+    "roles": ["Minion", "Defender"],
     "ancestry": ["Humanoid", "Kobold"]
   },
   {
@@ -2151,7 +2151,7 @@
     "name": "Kobold Veles",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Humanoid", "Kobold"]
   },
   {
@@ -2160,7 +2160,7 @@
     "name": "Kobold Venator",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Ambusher"],
+    "roles": ["Horde", "Ambusher"],
     "ancestry": ["Humanoid", "Kobold"]
   },
   {
@@ -2169,7 +2169,7 @@
     "name": "Shieldscale Drangolin",
     "level": 1,
     "ev": "12",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Kobold", "Beast"]
   },
   {
@@ -2178,7 +2178,7 @@
     "name": "Trained Gummy Brick",
     "level": 1,
     "ev": "12",
-    "roles": ["Elite Hexer"],
+    "roles": ["Elite", "Hexer"],
     "ancestry": ["Kobold", "Ooze", "Soulless"]
   },
   {
@@ -2196,7 +2196,7 @@
     "name": "Lightbender Pouncer",
     "level": 3,
     "ev": "20",
-    "roles": ["Elite Harrier"],
+    "roles": ["Elite", "Harrier"],
     "ancestry": ["Beast", "Lightbender"]
   },
   {
@@ -2205,7 +2205,7 @@
     "name": "Lightbender",
     "level": 3,
     "ev": "20",
-    "roles": ["Elite Ambusher"],
+    "roles": ["Elite", "Ambusher"],
     "ancestry": ["Beast", "Lightbender"]
   },
   {
@@ -2214,7 +2214,7 @@
     "name": "Lizardfolk Bloodeye",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Hexer"],
+    "roles": ["Platoon", "Hexer"],
     "ancestry": ["Humanoid", "Lizardfolk"]
   },
   {
@@ -2232,7 +2232,7 @@
     "name": "Lizardfolk Grunt",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Humanoid", "Lizardfolk"]
   },
   {
@@ -2241,7 +2241,7 @@
     "name": "Lizardfolk Scaletooth",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Brute"],
+    "roles": ["Platoon", "Brute"],
     "ancestry": ["Humanoid", "Lizardfolk"]
   },
   {
@@ -2250,7 +2250,7 @@
     "name": "Lizardfolk Shellguard",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Defender"],
+    "roles": ["Minion", "Defender"],
     "ancestry": ["Humanoid", "Lizardfolk"]
   },
   {
@@ -2259,7 +2259,7 @@
     "name": "Lizardfolk Skyterror",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Harrier"],
+    "roles": ["Platoon", "Harrier"],
     "ancestry": ["Humanoid", "Lizardfolk"]
   },
   {
@@ -2268,7 +2268,7 @@
     "name": "Lizardfolk Tonguer",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Humanoid", "Lizardfolk"]
   },
   {
@@ -2304,7 +2304,7 @@
     "name": "Minotaur Bully",
     "level": 8,
     "ev": "10 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Accursed", "Humanoid", "Minotaur"]
   },
   {
@@ -2313,7 +2313,7 @@
     "name": "Minotaur Lackey",
     "level": 8,
     "ev": "10 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Accursed", "Humanoid", "Minotaur"]
   },
   {
@@ -2322,7 +2322,7 @@
     "name": "Minotaur Stampede",
     "level": 10,
     "ev": "12 for four minions",
-    "roles": ["Minion Defender"],
+    "roles": ["Minion", "Defender"],
     "ancestry": ["Accursed", "Humanoid", "Minotaur", "Swarm"]
   },
   {
@@ -2331,7 +2331,7 @@
     "name": "Minotaur Sunderer",
     "level": 3,
     "ev": "20",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Accursed", "Humanoid", "Minotaur"]
   },
   {
@@ -2340,7 +2340,7 @@
     "name": "Minotaur",
     "level": 3,
     "ev": "20",
-    "roles": ["Elite Harrier"],
+    "roles": ["Elite", "Harrier"],
     "ancestry": ["Accursed", "Humanoid", "Minotaur"]
   },
   {
@@ -2349,7 +2349,7 @@
     "name": "Cyclops",
     "level": 10,
     "ev": "12 for four minions",
-    "roles": ["Minion Controller"],
+    "roles": ["Minion", "Controller"],
     "ancestry": ["Giant", "Ogre"]
   },
   {
@@ -2358,7 +2358,7 @@
     "name": "Ogre Blue Blood",
     "level": 7,
     "ev": "9 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Giant", "Ogre"]
   },
   {
@@ -2367,7 +2367,7 @@
     "name": "Ogre Goon",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Giant", "Ogre"]
   },
   {
@@ -2376,7 +2376,7 @@
     "name": "Ogre Juggernaut",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Harrier"],
+    "roles": ["Elite", "Harrier"],
     "ancestry": ["Giant", "Ogre"]
   },
   {
@@ -2385,7 +2385,7 @@
     "name": "Ogre Tantrum",
     "level": 7,
     "ev": "9 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Giant", "Ogre"]
   },
   {
@@ -2403,7 +2403,7 @@
     "name": "Mohler",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Ambusher"],
+    "roles": ["Minion", "Ambusher"],
     "ancestry": ["Animal", "Orc"]
   },
   {
@@ -2412,7 +2412,7 @@
     "name": "Orc Blitzer",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
@@ -2421,7 +2421,7 @@
     "name": "Orc Bloodrunner",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Harrier"],
+    "roles": ["Platoon", "Harrier"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
@@ -2430,7 +2430,7 @@
     "name": "Orc Bloodspark",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
@@ -2439,7 +2439,7 @@
     "name": "Orc Chainlock",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Hexer"],
+    "roles": ["Platoon", "Hexer"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
@@ -2448,7 +2448,7 @@
     "name": "Orc Eye of Grole",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Artillery"],
+    "roles": ["Platoon", "Artillery"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
@@ -2457,7 +2457,7 @@
     "name": "Orc Garotter",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Ambusher"],
+    "roles": ["Platoon", "Ambusher"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
@@ -2466,7 +2466,7 @@
     "name": "Orc Glorifier",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Controller"],
+    "roles": ["Minion", "Controller"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
@@ -2475,7 +2475,7 @@
     "name": "Orc Godcaller",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Support"],
+    "roles": ["Platoon", "Support"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
@@ -2484,7 +2484,7 @@
     "name": "Orc Juggernaut",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Brute"],
+    "roles": ["Platoon", "Brute"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
@@ -2493,7 +2493,7 @@
     "name": "Orc Rampart",
     "level": 2,
     "ev": "8",
-    "roles": ["Platoon Defender"],
+    "roles": ["Platoon", "Defender"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
@@ -2502,7 +2502,7 @@
     "name": "Orc Razor",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
@@ -2511,7 +2511,7 @@
     "name": "Orc Terranova",
     "level": 2,
     "ev": "8",
-    "roles": ["Platoon Controller"],
+    "roles": ["Platoon", "Controller"],
     "ancestry": ["Humanoid", "Orc"]
   },
   {
@@ -2529,7 +2529,7 @@
     "name": "Scyza",
     "level": 3,
     "ev": "20",
-    "roles": ["Elite Mount"],
+    "roles": ["Elite", "Mount"],
     "ancestry": ["Animal", "Orc"]
   },
   {
@@ -2538,7 +2538,7 @@
     "name": "Radenwight Bruxer",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Brute"],
+    "roles": ["Platoon", "Brute"],
     "ancestry": ["Humanoid", "Radenwight"]
   },
   {
@@ -2556,7 +2556,7 @@
     "name": "Radenwight Mischiever",
     "level": 1,
     "ev": "3 for 4 minions",
-    "roles": ["Minion Ambusher"],
+    "roles": ["Minion", "Ambusher"],
     "ancestry": ["Humanoid", "Radenwight"]
   },
   {
@@ -2565,7 +2565,7 @@
     "name": "Radenwight Piper",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Support"],
+    "roles": ["Platoon", "Support"],
     "ancestry": ["Humanoid", "Radenwight"]
   },
   {
@@ -2574,7 +2574,7 @@
     "name": "Radenwight Ratcrobat",
     "level": 1,
     "ev": "6",
-    "roles": ["Platoon Harrier"],
+    "roles": ["Platoon", "Harrier"],
     "ancestry": ["Humanoid", "Radenwight"]
   },
   {
@@ -2583,7 +2583,7 @@
     "name": "Radenwight Redeye",
     "level": 1,
     "ev": "3 for 4 minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Humanoid", "Radenwight"]
   },
   {
@@ -2592,7 +2592,7 @@
     "name": "Radenwight Scrapper",
     "level": 1,
     "ev": "3 for 4 minions",
-    "roles": ["Minion Defender"],
+    "roles": ["Minion", "Defender"],
     "ancestry": ["Humanoid", "Radenwight"]
   },
   {
@@ -2601,7 +2601,7 @@
     "name": "Radenwight Swiftpaw",
     "level": 1,
     "ev": "3 for 4 minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Humanoid", "Radenwight"]
   },
   {
@@ -2612,7 +2612,7 @@
     "name": "Level 2 Rival Conduit",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Support"],
+    "roles": ["Elite", "Support"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2623,7 +2623,7 @@
     "name": "Level 2 Rival Elementalist",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2634,7 +2634,7 @@
     "name": "Level 2 Rival Fury",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2645,7 +2645,7 @@
     "name": "Level 2 Rival Null",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Harrier"],
+    "roles": ["Elite", "Harrier"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2656,7 +2656,7 @@
     "name": "Level 2 Rival Shadow",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Ambusher"],
+    "roles": ["Elite", "Ambusher"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2667,7 +2667,7 @@
     "name": "Level 2 Rival Tactician",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Artillery"],
+    "roles": ["Elite", "Artillery"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2678,7 +2678,7 @@
     "name": "Level 2 Rival Talent",
     "level": 2,
     "ev": "16",
-    "roles": ["Elite Hexer"],
+    "roles": ["Elite", "Hexer"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2689,7 +2689,7 @@
     "name": "Level 5 Rival Conduit",
     "level": 5,
     "ev": "28",
-    "roles": ["Elite Support"],
+    "roles": ["Elite", "Support"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2700,7 +2700,7 @@
     "name": "Level 5 Rival Elementalist",
     "level": 5,
     "ev": "28",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2711,7 +2711,7 @@
     "name": "Level 5 Rival Fury",
     "level": 5,
     "ev": "28",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2722,7 +2722,7 @@
     "name": "Level 5 Rival Null",
     "level": 5,
     "ev": "28",
-    "roles": ["Elite Harrier"],
+    "roles": ["Elite", "Harrier"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2733,7 +2733,7 @@
     "name": "Level 5 Rival Shadow",
     "level": 5,
     "ev": "28",
-    "roles": ["Elite Ambusher"],
+    "roles": ["Elite", "Ambusher"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2744,7 +2744,7 @@
     "name": "Level 5 Rival Tactician",
     "level": 5,
     "ev": "28",
-    "roles": ["Elite Artillery"],
+    "roles": ["Elite", "Artillery"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2755,7 +2755,7 @@
     "name": "Level 5 Rival Talent",
     "level": 5,
     "ev": "28",
-    "roles": ["Elite Hexer"],
+    "roles": ["Elite", "Hexer"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2766,7 +2766,7 @@
     "name": "Level 8 Rival Conduit",
     "level": 8,
     "ev": "40",
-    "roles": ["Elite Support"],
+    "roles": ["Elite", "Support"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2777,7 +2777,7 @@
     "name": "Level 8 Rival Elementalist",
     "level": 8,
     "ev": "40",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2788,7 +2788,7 @@
     "name": "Level 8 Rival Fury",
     "level": 8,
     "ev": "40",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2799,7 +2799,7 @@
     "name": "Level 8 Rival Null",
     "level": 8,
     "ev": "40",
-    "roles": ["Elite Harrier"],
+    "roles": ["Elite", "Harrier"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2810,7 +2810,7 @@
     "name": "Level 8 Rival Shadow",
     "level": 8,
     "ev": "40",
-    "roles": ["Elite Ambusher"],
+    "roles": ["Elite", "Ambusher"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2821,7 +2821,7 @@
     "name": "Level 8 Rival Tactician",
     "level": 8,
     "ev": "40",
-    "roles": ["Elite Artillery"],
+    "roles": ["Elite", "Artillery"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2832,7 +2832,7 @@
     "name": "Level 8 Rival Talent",
     "level": 8,
     "ev": "40",
-    "roles": ["Elite Hexer"],
+    "roles": ["Elite", "Hexer"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2843,7 +2843,7 @@
     "name": "Level 10 Rival Conduit",
     "level": 10,
     "ev": "48",
-    "roles": ["Elite Support"],
+    "roles": ["Elite", "Support"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2854,7 +2854,7 @@
     "name": "Level 10 Rival Elementalist",
     "level": 10,
     "ev": "48",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2865,7 +2865,7 @@
     "name": "Level 10 Rival Fury",
     "level": 10,
     "ev": "48",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2876,7 +2876,7 @@
     "name": "Level 10 Rival Null",
     "level": 10,
     "ev": "48",
-    "roles": ["Elite Harrier"],
+    "roles": ["Elite", "Harrier"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2887,7 +2887,7 @@
     "name": "Level 10 Rival Shadow",
     "level": 10,
     "ev": "48",
-    "roles": ["Elite Ambusher"],
+    "roles": ["Elite", "Ambusher"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2898,7 +2898,7 @@
     "name": "Level 10 Rival Tactician",
     "level": 10,
     "ev": "48",
-    "roles": ["Elite Artillery"],
+    "roles": ["Elite", "Artillery"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2909,7 +2909,7 @@
     "name": "Level 10 Rival Talent",
     "level": 10,
     "ev": "48",
-    "roles": ["Elite Hexer"],
+    "roles": ["Elite", "Hexer"],
     "ancestry": ["Humanoid", "Rival"]
   },
   {
@@ -2929,7 +2929,7 @@
     "name": "Time Raider Archon",
     "level": 3,
     "ev": "5 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Humanoid", "Time Raider"]
   },
   {
@@ -2938,7 +2938,7 @@
     "name": "Time Raider Armiger",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Defender"],
+    "roles": ["Platoon", "Defender"],
     "ancestry": ["Humanoid", "Time Raider"]
   },
   {
@@ -2947,7 +2947,7 @@
     "name": "Time Raider Cannonfall",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Artillery"],
+    "roles": ["Platoon", "Artillery"],
     "ancestry": ["Humanoid", "Time Raider"]
   },
   {
@@ -2956,7 +2956,7 @@
     "name": "Time Raider Helix",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Controller"],
+    "roles": ["Platoon", "Controller"],
     "ancestry": ["Humanoid", "Time Raider"]
   },
   {
@@ -2965,7 +2965,7 @@
     "name": "Time Raider Hijack",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Ambusher"],
+    "roles": ["Platoon", "Ambusher"],
     "ancestry": ["Humanoid", "Time Raider"]
   },
   {
@@ -2974,7 +2974,7 @@
     "name": "Time Raider Mind Punk",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Hexer"],
+    "roles": ["Platoon", "Hexer"],
     "ancestry": ["Humanoid", "Time Raider"]
   },
   {
@@ -2983,7 +2983,7 @@
     "name": "Time Raider Myriad",
     "level": 3,
     "ev": "5 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Humanoid", "Time Raider"]
   },
   {
@@ -2992,7 +2992,7 @@
     "name": "Time Raider Nemesis",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Harrier"],
+    "roles": ["Platoon", "Harrier"],
     "ancestry": ["Humanoid", "Time Raider"]
   },
   {
@@ -3010,7 +3010,7 @@
     "name": "Time Raider Vertex",
     "level": 3,
     "ev": "10",
-    "roles": ["Platoon Support"],
+    "roles": ["Platoon", "Support"],
     "ancestry": ["Humanoid", "Time Raider"]
   },
   {
@@ -3019,7 +3019,7 @@
     "name": "Troll Butcher",
     "level": 5,
     "ev": "28",
-    "roles": ["Elite Hexer"],
+    "roles": ["Elite", "Hexer"],
     "ancestry": ["Giant", "Troll"]
   },
   {
@@ -3028,7 +3028,7 @@
     "name": "Troll Crack Trooper",
     "level": 9,
     "ev": "11 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Giant", "Troll"]
   },
   {
@@ -3037,7 +3037,7 @@
     "name": "Troll Glutton",
     "level": 5,
     "ev": "28",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Giant", "Troll"]
   },
   {
@@ -3046,7 +3046,7 @@
     "name": "Troll Limbjumble",
     "level": 5,
     "ev": "7 for four minions",
-    "roles": ["Minion Hexer"],
+    "roles": ["Minion", "Hexer"],
     "ancestry": ["Troll"]
   },
   {
@@ -3055,7 +3055,7 @@
     "name": "Troll Ravager",
     "level": 9,
     "ev": "11 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Giant", "Troll"]
   },
   {
@@ -3064,7 +3064,7 @@
     "name": "Troll Whelp",
     "level": 5,
     "ev": "7 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Giant", "Troll"]
   },
   {
@@ -3077,7 +3077,7 @@
     "name": "Blood-Starved Vampire",
     "level": 7,
     "ev": "9 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Undead", "Vampire"]
   },
   {
@@ -3091,7 +3091,7 @@
     "name": "Bonecage",
     "level": 10,
     "ev": "12",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3102,7 +3102,7 @@
     "name": "Crawling Claw",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3113,7 +3113,7 @@
     "name": "Decrepit Skeleton",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3126,7 +3126,7 @@
     "name": "Dirt Mournling",
     "level": 7,
     "ev": "9",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Undead"]
   },
   {
@@ -3139,7 +3139,7 @@
     "name": "Faded Echo Spirit",
     "level": 7,
     "ev": "9 for four minions",
-    "roles": ["Minion Hexer"],
+    "roles": ["Minion", "Hexer"],
     "ancestry": ["Undead"]
   },
   {
@@ -3151,7 +3151,7 @@
     "name": "Flesh Mournling",
     "level": 4,
     "ev": "6",
-    "roles": ["Horde Defender"],
+    "roles": ["Horde", "Defender"],
     "ancestry": ["Undead"]
   },
   {
@@ -3163,7 +3163,7 @@
     "name": "Fleshflayed Shambler Zombie",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3186,7 +3186,7 @@
     "name": "Ghoul Craver",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Undead"]
   },
   {
@@ -3197,7 +3197,7 @@
     "name": "Ghoul",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Harrier"],
+    "roles": ["Horde", "Harrier"],
     "ancestry": ["Undead"]
   },
   {
@@ -3211,7 +3211,7 @@
     "name": "Giant Shambler Zombie",
     "level": 10,
     "ev": "12 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3223,7 +3223,7 @@
     "name": "Giant Zombie",
     "level": 4,
     "ev": "24",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3236,7 +3236,7 @@
     "name": "Haunt",
     "level": 7,
     "ev": "9",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Undead"]
   },
   {
@@ -3248,7 +3248,7 @@
     "name": "Hollowbone Launcher",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3261,7 +3261,7 @@
     "name": "Koptourok",
     "level": 7,
     "ev": "9",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Undead"]
   },
   {
@@ -3275,7 +3275,7 @@
     "name": "Lithgekh",
     "level": 10,
     "ev": "12",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3300,7 +3300,7 @@
     "name": "Mummy Rotwrap",
     "level": 7,
     "ev": "9 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Mummy", "Undead"]
   },
   {
@@ -3312,7 +3312,7 @@
     "name": "Mummy",
     "level": 4,
     "ev": "6",
-    "roles": ["Horde Brute"],
+    "roles": ["Horde", "Brute"],
     "ancestry": ["Mummy", "Undead"]
   },
   {
@@ -3323,7 +3323,7 @@
     "name": "Rotting Zombie",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3334,7 +3334,7 @@
     "name": "Shade",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Ambusher"],
+    "roles": ["Minion", "Ambusher"],
     "ancestry": ["Undead"]
   },
   {
@@ -3348,7 +3348,7 @@
     "name": "Skeleton Knight",
     "level": 10,
     "ev": "12 for four minions",
-    "roles": ["Minion Defender"],
+    "roles": ["Minion", "Defender"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3359,7 +3359,7 @@
     "name": "Skeleton",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Artillery"],
+    "roles": ["Horde", "Artillery"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3370,7 +3370,7 @@
     "name": "Soulwight",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Undead"]
   },
   {
@@ -3381,7 +3381,7 @@
     "name": "Specter",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Undead"]
   },
   {
@@ -3392,7 +3392,7 @@
     "name": "Umbral Stalker",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Ambusher"],
+    "roles": ["Horde", "Ambusher"],
     "ancestry": ["Undead"]
   },
   {
@@ -3417,7 +3417,7 @@
     "name": "Vampire Spawn",
     "level": 4,
     "ev": "6",
-    "roles": ["Horde Harrier"],
+    "roles": ["Horde", "Harrier"],
     "ancestry": ["Undead", "Vampire"]
   },
   {
@@ -3430,7 +3430,7 @@
     "name": "Vampire",
     "level": 7,
     "ev": "9",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Undead", "Vampire"]
   },
   {
@@ -3443,7 +3443,7 @@
     "name": "Waxen",
     "level": 7,
     "ev": "9",
-    "roles": ["Horde Artillery"],
+    "roles": ["Horde", "Artillery"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3457,7 +3457,7 @@
     "name": "Wraith Skulker",
     "level": 10,
     "ev": "12 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Undead"]
   },
   {
@@ -3469,7 +3469,7 @@
     "name": "Wraith",
     "level": 4,
     "ev": "6",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Undead"]
   },
   {
@@ -3480,7 +3480,7 @@
     "name": "Zombie",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Brute"],
+    "roles": ["Horde", "Brute"],
     "ancestry": ["Undead", "Soulless"]
   },
   {
@@ -3489,7 +3489,7 @@
     "name": "Multivok Bodyguard",
     "level": 9,
     "ev": "44",
-    "roles": ["Elite Defender"],
+    "roles": ["Elite", "Defender"],
     "ancestry": ["Construct", "Multivok", "Soulless", "Valok"]
   },
   {
@@ -3498,7 +3498,7 @@
     "name": "Multivok Chief",
     "level": 9,
     "ev": "44",
-    "roles": ["Elite Support"],
+    "roles": ["Elite", "Support"],
     "ancestry": ["Construct", "Multivok", "Soulless", "Valok"]
   },
   {
@@ -3507,7 +3507,7 @@
     "name": "Servok Builder",
     "level": 9,
     "ev": "44",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Construct", "Servok", "Soulless", "Valok"]
   },
   {
@@ -3516,7 +3516,7 @@
     "name": "Servok Miner",
     "level": 9,
     "ev": "44",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Construct", "Servok", "Soulless", "Valok"]
   },
   {
@@ -3525,7 +3525,7 @@
     "name": "Servok War Engine",
     "level": 10,
     "ev": "48",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Construct", "Servok", "Soulless", "Valok"]
   },
   {
@@ -3536,7 +3536,7 @@
     "name": "Hulking Brain",
     "level": 6,
     "ev": "32",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Horror", "Voiceless Talker"]
   },
   {
@@ -3547,7 +3547,7 @@
     "name": "Mindkiller Whelp",
     "level": 6,
     "ev": "8 for four minions",
-    "roles": ["Minion Hexer"],
+    "roles": ["Minion", "Hexer"],
     "ancestry": ["Horror", "Voiceless Talker"]
   },
   {
@@ -3558,7 +3558,7 @@
     "name": "Mindkiller",
     "level": 6,
     "ev": "32",
-    "roles": ["Elite Hexer"],
+    "roles": ["Elite", "Hexer"],
     "ancestry": ["Horror", "Voiceless Talker"]
   },
   {
@@ -3569,7 +3569,7 @@
     "name": "Voiceless Talker Artillerist",
     "level": 6,
     "ev": "32",
-    "roles": ["Elite Artillery"],
+    "roles": ["Elite", "Artillery"],
     "ancestry": ["Horror", "Voiceless Talker"]
   },
   {
@@ -3591,7 +3591,7 @@
     "name": "Voiceless Talker Graywarper",
     "level": 6,
     "ev": "8 for four minions",
-    "roles": ["Minion Controller"],
+    "roles": ["Minion", "Controller"],
     "ancestry": ["Horror", "Voiceless Talker"]
   },
   {
@@ -3602,7 +3602,7 @@
     "name": "Voiceless Talker Invader",
     "level": 6,
     "ev": "32",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Horror", "Voiceless Talker"]
   },
   {
@@ -3616,7 +3616,7 @@
     "name": "Castellan Hoplon",
     "level": 10,
     "ev": "48",
-    "roles": ["Elite Defender"],
+    "roles": ["Elite", "Defender"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3630,7 +3630,7 @@
     "name": "Iron Champion Doru",
     "level": 10,
     "ev": "48",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3644,7 +3644,7 @@
     "name": "Logostician Vesper",
     "level": 10,
     "ev": "48",
-    "roles": ["Elite Controller"],
+    "roles": ["Elite", "Controller"],
     "ancestry": ["Soulless", "War Dog"]
   },
   {
@@ -3658,7 +3658,7 @@
     "name": "Soulbinder Psyche",
     "level": 10,
     "ev": "48",
-    "roles": ["Elite Hexer"],
+    "roles": ["Elite", "Hexer"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3685,7 +3685,7 @@
     "name": "War Dog Aerocite",
     "level": 8,
     "ev": "10",
-    "roles": ["Horde Harrier"],
+    "roles": ["Horde", "Harrier"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3696,7 +3696,7 @@
     "name": "War Dog Amalgamite",
     "level": 2,
     "ev": "4",
-    "roles": ["Horde Brute"],
+    "roles": ["Horde", "Brute"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3708,7 +3708,7 @@
     "name": "War Dog Arachnite",
     "level": 6,
     "ev": "8",
-    "roles": ["Horde Artillery"],
+    "roles": ["Horde", "Artillery"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3721,7 +3721,7 @@
     "name": "War Dog Ballistite",
     "level": 8,
     "ev": "10",
-    "roles": ["Horde Artillery"],
+    "roles": ["Horde", "Artillery"],
     "ancestry": ["Soulless", "War Dog"]
   },
   {
@@ -3734,7 +3734,7 @@
     "name": "War Dog Blackcap",
     "level": 7,
     "ev": "9",
-    "roles": ["Horde Ambusher"],
+    "roles": ["Horde", "Ambusher"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3748,7 +3748,7 @@
     "name": "War Dog Blood Jumper",
     "level": 10,
     "ev": "12 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3761,7 +3761,7 @@
     "name": "War Dog Breaker",
     "level": 7,
     "ev": "36",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3772,7 +3772,7 @@
     "name": "War Dog Commando",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Ambusher"],
+    "roles": ["Minion", "Ambusher"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3783,7 +3783,7 @@
     "name": "War Dog Conscript",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3794,7 +3794,7 @@
     "name": "War Dog Crucibite",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Artillery"],
+    "roles": ["Horde", "Artillery"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3806,7 +3806,7 @@
     "name": "War Dog Doomthief",
     "level": 5,
     "ev": "7",
-    "roles": ["Horde Defender"],
+    "roles": ["Horde", "Defender"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3819,7 +3819,7 @@
     "name": "War Dog Draconite",
     "level": 7,
     "ev": "9 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3831,7 +3831,7 @@
     "name": "War Dog Equivite",
     "level": 4,
     "ev": "6",
-    "roles": ["Horde Brute"],
+    "roles": ["Horde", "Brute"],
     "ancestry": ["Soulless", "War Dog"]
   },
   {
@@ -3842,7 +3842,7 @@
     "name": "War Dog Eviscerite",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Harrier"],
+    "roles": ["Horde", "Harrier"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3855,7 +3855,7 @@
     "name": "War Dog Firestarter",
     "level": 8,
     "ev": "10",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3868,7 +3868,7 @@
     "name": "War Dog Geomancer",
     "level": 8,
     "ev": "10",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3893,7 +3893,7 @@
     "name": "War Dog Hunter-Killer",
     "level": 10,
     "ev": "12 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3905,7 +3905,7 @@
     "name": "War Dog Hypokrite",
     "level": 4,
     "ev": "6",
-    "roles": ["Horde Ambusher"],
+    "roles": ["Horde", "Ambusher"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3918,7 +3918,7 @@
     "name": "War Dog Iron Priest",
     "level": 8,
     "ev": "10",
-    "roles": ["Horde Support"],
+    "roles": ["Horde", "Support"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3930,7 +3930,7 @@
     "name": "War Dog Mischievite",
     "level": 5,
     "ev": "7",
-    "roles": ["Horde Harrier"],
+    "roles": ["Horde", "Harrier"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3941,7 +3941,7 @@
     "name": "War Dog Neuronite",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Defender"],
+    "roles": ["Horde", "Defender"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3952,7 +3952,7 @@
     "name": "War Dog Pestilite",
     "level": 3,
     "ev": "5",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3963,7 +3963,7 @@
     "name": "War Dog Phosphorite",
     "level": 2,
     "ev": "4",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -3976,7 +3976,7 @@
     "name": "War Dog Prismite",
     "level": 8,
     "ev": "10",
-    "roles": ["Horde Defender"],
+    "roles": ["Horde", "Defender"],
     "ancestry": ["Soulless", "War Dog"]
   },
   {
@@ -3989,7 +3989,7 @@
     "name": "War Dog Saboteur",
     "level": 7,
     "ev": "9 for four minions",
-    "roles": ["Minion Ambusher"],
+    "roles": ["Minion", "Ambusher"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4000,7 +4000,7 @@
     "name": "War Dog Sharpshooter",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4013,7 +4013,7 @@
     "name": "War Dog Shriketroop",
     "level": 7,
     "ev": "9 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4027,7 +4027,7 @@
     "name": "War Dog Socialite",
     "level": 10,
     "ev": "12 for four minions",
-    "roles": ["Minion Hexer"],
+    "roles": ["Minion", "Hexer"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4039,7 +4039,7 @@
     "name": "War Dog Sparkslinger",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Artillery"],
+    "roles": ["Minion", "Artillery"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4050,7 +4050,7 @@
     "name": "War Dog Subcommander",
     "level": 2,
     "ev": "4",
-    "roles": ["Horde Support"],
+    "roles": ["Horde", "Support"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4062,7 +4062,7 @@
     "name": "War Dog Sweeper",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Harrier"],
+    "roles": ["Minion", "Harrier"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4086,7 +4086,7 @@
     "name": "War Dog Teletalite",
     "level": 1,
     "ev": "3",
-    "roles": ["Horde Ambusher"],
+    "roles": ["Horde", "Ambusher"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4097,7 +4097,7 @@
     "name": "War Dog Tetherite",
     "level": 1,
     "ev": "3 for four minions",
-    "roles": ["Minion Brute"],
+    "roles": ["Minion", "Brute"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4121,7 +4121,7 @@
     "name": "War Dog Thanatite",
     "level": 6,
     "ev": "8",
-    "roles": ["Horde Controller"],
+    "roles": ["Horde", "Controller"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4133,7 +4133,7 @@
     "name": "War Dog Tormentite",
     "level": 5,
     "ev": "7",
-    "roles": ["Horde Hexer"],
+    "roles": ["Horde", "Hexer"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4145,7 +4145,7 @@
     "name": "War Dog War Doc",
     "level": 5,
     "ev": "7",
-    "roles": ["Horde Support"],
+    "roles": ["Horde", "Support"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4157,7 +4157,7 @@
     "name": "War Dog War Frog",
     "level": 4,
     "ev": "6 for four minions",
-    "roles": ["Minion Ambusher"],
+    "roles": ["Minion", "Ambusher"],
     "ancestry": ["Humanoid", "Soulless", "War Dog"]
   },
   {
@@ -4175,7 +4175,7 @@
     "name": "Wyvern Lurker",
     "level": 4,
     "ev": "24",
-    "roles": ["Elite Ambusher"],
+    "roles": ["Elite", "Ambusher"],
     "ancestry": ["Beast", "Wyvern"]
   },
   {
@@ -4184,7 +4184,7 @@
     "name": "Wyvern Predator",
     "level": 4,
     "ev": "24",
-    "roles": ["Elite Brute"],
+    "roles": ["Elite", "Brute"],
     "ancestry": ["Beast", "Wyvern"]
   },
   {

@@ -63,7 +63,7 @@ export async function generateIndex() {
         ...pathBundle,
         name: json.name,
         ev: json.ev,
-        roles: json.roles,
+        roles: json.roles[0].split(" "),
         ancestry: json.ancestry,
         level: json.level,
       };
