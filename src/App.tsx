@@ -52,7 +52,7 @@ function App() {
   }, [statblockPath]);
 
   return (
-    <div className="h-screen text-black text-sm flex flex-col gap-6">
+    <div className="min-h-screen h-screen text-black text-sm flex flex-col gap-6">
       {statblockPath ? (
         activeMonsterData && <MonsterView monsterData={activeMonsterData} />
       ) : (

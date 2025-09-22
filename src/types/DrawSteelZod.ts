@@ -12,10 +12,10 @@ export const DrawSteelEffectZod = z.strictObject({
 });
 
 export const DrawSteelFeatureZod = z.strictObject({
-  name: z.string(), // optional in schema, everything passes validation if its mandatory
+  name: z.string(),
   type: z.literal("feature"),
   feature_type: z.union([z.literal("ability"), z.literal("trait")]),
-  icon: z.string(), // only missing for big animal a, should probably be mandatory
+  icon: z.string(),
   usage: z.string().optional(), // says required in schema, appears to be optional
   cost: z.string().optional(),
   ability_type: z.string().optional(), // villain action # is saved here, not in usage as is specified by the schema
@@ -45,15 +45,15 @@ export const DrawSteelStatblockZod = z.strictObject({
   name: z.string(),
   type: z.literal("statblock"),
   level: z.number(), // optional in schema, everything passes validation if it's mandatory
-  roles: z.array(z.string()),
-  ancestry: z.array(z.string()),
+  roles: z.array(z.string()), // once this is broken into organization and roll this can be a union of literals
+  ancestry: z.array(z.string()), // will change to keywords
   ev: z.string(),
   stamina: z.string(),
-  immunities: z.array(z.string()).optional(),
+  immunities: z.array(z.string()).optional(), // could be array of all damage types
   weaknesses: z.array(z.string()).optional(),
   speed: z.int(),
   movement: z.string().optional(),
-  size: z.string(),
+  size: z.string(), // could be literal union
   stability: z.int(),
   free_strike: z.int(),
   might: z.int(),
