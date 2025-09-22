@@ -16,7 +16,7 @@ function Checkbox({
       onMouseEnter={() => setHasHover(true)}
       onMouseLeave={() => setHasHover(false)}
       className={
-        "peer group aspect-square shrink-0 rounded-full p-[11px] duration-150 outline-none data-[has-hover=true]:bg-black/7 focus-visible:bg-black/7"
+        "peer group aspect-square shrink-0 rounded-full p-[11px] duration-150 outline-none pointer-fine:data-[has-hover=true]:bg-black/7 focus-visible:bg-black/7"
       }
       {...props}
     >
