@@ -81,7 +81,7 @@ export default function SearchView({
       </nav>
 
       <main className="flex flex-col grow">
-        <div>
+        <div className="border-b border-zinc-300">
           <Collapsible open={open}>
             <CollapsibleContent>
               <div className="bg-zinc-100">

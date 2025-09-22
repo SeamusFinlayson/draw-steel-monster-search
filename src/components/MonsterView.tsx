@@ -13,7 +13,7 @@ export default function MonsterView({
 
   return (
     <div>
-      <nav>
+      <nav className="border-b border-zinc-300">
         <Header />
       </nav>
       <main>
